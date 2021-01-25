@@ -1,0 +1,133 @@
+/* Navbar Click and display behaviour */
+
+*a {
+    color: #294F6D;
+    text-decoration: none;
+}
+
+*a:link {
+    color: #294F6D;
+    text-decoration: none;
+}
+
+*a:visited {
+    color: #4A688A;
+    text-decoration: none;
+}
+
+*a:hover {
+    color: #532B72;
+    text-decoration: none;
+}
+
+*a:active {
+    color: #4A688A;
+    text-decoration: none;
+}
+
+/* Navigation Bar */
+
+nav ul{
+    list-style-type: none;
+    margin: 20px;
+    padding: 2px;
+    overflow: hidden;
+    background-color: white;
+}
+
+nav li {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    text-decoration-style: wavy;
+    padding: 20px;
+    border: 5px;
+    border-style: solid;
+    border-color: white;
+    width: 100px;
+    color: #294F6D;
+
+/* Social media buttons */
+
+}
+.fa {
+    padding: 20px;
+    border
+    font-size: 30px;
+    width: 50px;
+    text-decoration: none;
+    margin: 5px 2px;
+    float:right;
+
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-reddit {
+    background: #ff5700;
+    color: white;
+}
+
+.fa-rss {
+    background: #ff6600;
+    color: white;
+
+}
+
+.box2 {
+    height: 1800px;
+    width: 800px;
+    padding: 150px;
+    opacity: 85%;
+    margin-left: 400px;
+    margin-right: 400px;
+    background-color: white;
+}
+
+.box3 {
+    height: 400px;
+    width: 800px;
+    padding: 150px;
+    opacity: 85%;
+    background-color: white;
+    margin-left: 400px;
+    margin-top: 50px;
+    float: left;
+    border-style: solid;
+}
+
+body {
+    background-color: #294F6D;
+    border: 30px;
+    border-style:ridge;
+    border-color: black;
+    border
+
+}
