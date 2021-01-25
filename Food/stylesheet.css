@@ -53,6 +53,8 @@ nav li {
 #instagram-logo, #snapchat-logo
         {
     float: right;
+    width:70px;
+    height:70px;
 }
 
 .box2 {
