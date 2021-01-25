@@ -49,10 +49,10 @@ nav li {
 
 /* Social media buttons */
 
-facebook logo, twitter logo,
-instagram logo, snapchat logo
+#facebook-logo, #twitter-logo,
+#instagram-logo, #snapchat-logo
         {
-    text-align: right;
+    float: right;
 }
 
 .box2 {
@@ -84,6 +84,4 @@ body {
     border: 30px;
     border-style:ridge;
     border-color: black;
-    border
-
 }
