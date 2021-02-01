@@ -1,20 +1,26 @@
 /* Navbar Click and display behaviour */
 
-.box1 {
+.box1{
     height: 200px;
     width: 1880px;
     border: solid;
     border-color: black;
     float: left;
-    background-color: white;
+    background-color: black;
 
 
 }
 
-#logo {
-    height: 100px;
-}
 
+
+.logo {
+    max-width: 100%;
+  height: auto;
+    width: 200px;
+    height: 200px;
+     object-fit: cover;
+
+}
 
 a:link {
     color: white;
@@ -87,7 +93,7 @@ nav li {
     border-style: solid;
     margin-top: 100px;
     height: 600px;
-    background-color: black;
+    background-color: white;
     margin-left: -20px;
 
 
