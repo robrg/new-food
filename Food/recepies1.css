@@ -2,24 +2,25 @@
 
 .box1{
     height: 200px;
-    width: 1880px;
+    width: 100%;
     border: solid;
-    border-color: black;
-    float: left;
+    border-color: #000000;
     background-color: black;
-
-
 }
 
-
+body{
+    margin: 0px;
+}
 
 .logo {
-    max-width: 100%;
-  height: auto;
+    height: auto;
     width: 200px;
-    height: 200px;
-     object-fit: cover;
+    float: left;
+}
 
+.tagline{
+    color:red;
+    float: left;
 }
 
 a:link {
@@ -46,7 +47,7 @@ a:active {
 /* Navigation Bar */
 
 
-nav ul{
+.topMenu{
     list-style-type: none;
     padding: 2px;
     overflow: hidden;
@@ -58,7 +59,7 @@ nav ul{
 
 }
 
-nav li {
+.topMenu li {
     display: inline-block;
     font-family: 'Roboto', sans-serif;
     text-decoration-style: wavy;
@@ -69,19 +70,12 @@ nav li {
     color: #294F6D;
     font-weight: 50px;
     opacity: 100%;
-
-
 }
 
 /* Social media buttons */
 
-#facebook-logo, #twitter-logo,
-#instagram-logo, #snapchat-logo
-        {
+.social {
     float: right;
-    border: 2px;
-    border-color: aqua;
-    border-bottom: 200px;
     width:50px;
     height:50px;
     padding: 10px;
@@ -94,15 +88,14 @@ nav li {
     margin-top: 100px;
     height: 600px;
     background-color: white;
-    margin-left: -20px;
-
-
+    margin: 0px;
+    padding: 0px;
 }
 
-.box3 {
+.footer {
     border: 2px;
     border-style: solid;
-    height: 00px;
-    background color: blue;
+    height: 100px;
+    background-color: blue;
 
 }
