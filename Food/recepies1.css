@@ -113,21 +113,27 @@ body{
 }
 
 .steak  {
-    float: right;
     height: 450px;
-    width: 450px;
+    width: auto;
+    float: left;
 }
 
  .chicken  {
 
-    height: 400px;
-    width: 450px;
+    height: 450px;
+    width: auto;
+    float: left;
 
 }
 .turkey {
 
     height: 450px;
     width: auto;
+    float: left;
+}
+
+.clear{
+    clear:both;
 }
 /* Footer */
 
