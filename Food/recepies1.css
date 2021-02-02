@@ -1,77 +1,142 @@
-/* Navbar Click and display behaviour */
-
+/* Navigation Bar and Logo*/
 .box1{
-    height: 200px;
+    margin-bottom: auto;
+    height: 150px;
     width: 100%;
-    border: solid;
-    border-color: #000000;
     background-color: black;
-}
-
-body{
-    margin: 0px;
 }
 
 .logo {
     height: auto;
-    width: 200px;
+    width: 150px;
     float: left;
+}
+/* Header robs health and fitness website */
+
+.header{
+    color: white;
+    text-align: center;
+    margin-left: 200px;
+    font-family: 'Spectral SC', serif;
 }
 
 .tagline{
-    color:red;
-    float: left;
+    font-family: 'Spectral SC', 'Extra-light 200', serif;
+    color: white;
+    text-align: center;
+
+
 }
+
+/* The alert message box */
+
+.alert {
+    padding: 20px;
+    background-color: #E96C00;
+    color: white;
+    text-decoration-style: dashed;
+    font-size: 22px;
+    font-family: 'Spectral SC', serif;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    opacity: 0.7;
+}
+
+/* The close button */
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+
+.closebtn:hover {
+    color: black;
+}
+/* Nav Bar */
+
+.topMenu li {
+    display: inline;
+    font-family: 'Spectral SC', serif;
+    padding: 20px;
+    width: 100px;
+    font-weight: 50px;
+}
+
+/* Navbar text Click and display behaviour */
 
 a:link {
     color: white;
     text-decoration: none;
+    text-shadow: 100%;
 }
 
 a:visited {
-    color: #4A688A;
+    color: white;
     text-decoration: none;
+    text-shadow: 100%;
 
 }
 
 a:hover {
-    color: #532B72;
+    color: darkgrey;
     text-decoration: none;
+    text-shadow: 100%;
+
 }
 
 a:active {
-    color: #4A688A;
+    color: red;
     text-decoration: none;
+    text-shadow: 20px;
 }
 
-/* Navigation Bar */
+/* Body */
 
-
-.topMenu{
-    list-style-type: none;
-    padding: 2px;
-    overflow: hidden;
-    background-color: #6A6B6C;
-    border-color: white;
-    border-style: solid;
-    margin-top: -20px;
-    margin-left: -20px;
-
+body{
+    background-color: darkgrey;
 }
 
-.topMenu li {
-    display: inline-block;
-    font-family: 'Roboto', sans-serif;
-    text-decoration-style: wavy;
-    padding: 20px;
-    border: 0px;
-    border-style: solid;
-    width: 100px;
-    color: #294F6D;
-    font-weight: 50px;
-    opacity: 100%;
+/* Meats */
+
+.box2 {
+
+    height: 100%;
+    width: auto;
+    background-color: white;
 }
 
+.steak  {
+    float: right;
+    height: 450px;
+    width: 450px;
+}
+
+ .chicken  {
+
+    height: 400px;
+    width: 450px;
+
+}
+.turkey {
+
+    height: 450px;
+    width: auto;
+}
+/* Footer */
+
+.footer {
+    height: 100px;
+    background-color: black;
+    width: 100%;
+
+}
 /* Social media buttons */
 
 .social {
@@ -79,23 +144,4 @@ a:active {
     width:50px;
     height:50px;
     padding: 10px;
-}
-
-
-.box2 {
-    border: 2px;
-    border-style: solid;
-    margin-top: 100px;
-    height: 600px;
-    background-color: white;
-    margin: 0px;
-    padding: 0px;
-}
-
-.footer {
-    border: 2px;
-    border-style: solid;
-    height: 100px;
-    background-color: blue;
-
 }
