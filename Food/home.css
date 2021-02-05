@@ -14,7 +14,6 @@
     margin-right: 550px;
     font-size: 70px;
     margin-top: 30px;
-
 }
 
 .logo {
@@ -35,7 +34,7 @@
     text-align: center;
     margin-top: 15px;
     margin-bottom: 15px;
-    opacity: 0.7;
+
 }
 
 /* The close button */
@@ -54,6 +53,7 @@
 .closebtn:hover {
     color: black;
 }
+
 /* Nav Bar */
 
 .topMenu li {
@@ -89,7 +89,7 @@ a:hover {
 a:active {
     color: #E96C00;
     text-decoration: none;
-    text-shadow: 100%;
+    text-shadow: 20px;
 }
 
 .searchbar {
@@ -112,9 +112,11 @@ body{
     background-image: linear-gradient(black, white);
 }
 
+
 /* Meats */
 
 .box2 {
+
     height: 100%;
     width: auto;
     background-color: black;
@@ -124,51 +126,17 @@ body{
     margin-left: 100px;
 }
 
-.header{
-    color: white;
-    float: right;
-    font-family: 'Bebas Neue', cursive;;
-}
-
-.meatheader {
-    color: white;
-    text-align: center;
+.homeheader {
     font-family: 'Bebas Neue', cursive;
+    color: yellow;
 
 }
 
-.steak  {
-    height: 300px;
-    width: auto;
-    float: left;
-    margin-top: 20px;
-    margin-right: 20px;
-    margin-bottom: 40px;
-    margin-left: 21px;
-}
+.about {
+    font-family: 'Spectral SC', serif;
 
- .chicken  {
-    height: 400px;
-    width: auto;
-    float: left;
-    margin-top: 20px;
-    margin-right: 20px;
-    margin-bottom: 40px;
-    margin-left: 30px;
- }
+    color: white;
 
-.turkey {
-    height: 400px;
-    width: 500px;
-    float: left;
-    margin-top: 20px;
-    margin-right: 20px;
-    margin-bottom: 40px;
-    margin-left: 30px;
-}
-
-.clear{
-    clear:both;
 }
 
 /* Footer */
@@ -179,7 +147,6 @@ body{
     width: 100%;
 
 }
-
 /* Social media buttons */
 
 .social {
