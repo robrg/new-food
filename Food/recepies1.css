@@ -20,7 +20,6 @@
 .logo {
     height: auto;
     width: 150px;
-    margin-left: 200px
 }
 
 /* Nav Bar */
@@ -42,6 +41,11 @@
     width: 0px;
     font-weight: 50px;
 
+}
+
+.topMenu{
+    width: 50%;
+    float:left;
 }
 
 /* Nav Bar icons */
@@ -108,7 +112,13 @@ a:active {
     font-family: 'Spectral SC', serif;
     color: white;
     height: 25px;
-    width: 10px;
+    width: 20%;
+    float: left;
+}
+
+.login li{
+    display: inline;
+    padding: 2px;
 }
 
 /* Login icons */
@@ -116,18 +126,22 @@ a:active {
 .loginicon {
     height: 30px;
     width: auto;
-    margin-top:
 }
 
 .signupicon {
     height: 25px;
     width: auto;
-    margin-top:
 }
 
 /* Search Bar */
 
 .searchbar {
+    opacity: 0.5px;
+    width: 30%;
+    float: left;
+}
+
+.searchbar input{
     color: #E96C00;
     opacity: 0.5px;
     font-family: 'Spectral SC', serif;
@@ -135,20 +149,15 @@ a:active {
     border: 2px;
     border-color: black;
     border-style: solid;
-    width: 10px;
+    margin-top: 10px;
     height: 20px;
-
-
-
-
-
+    width: 350px;
+    float: left;
 }
 
 .searchbaricon {
     height: 30px;
-
-
-
+    margin-top: 10px;
 }
 
 /* The alert message box */
