@@ -128,7 +128,7 @@ a:active {
 .searchbaricon {
     height: 30px;
     width: auto;
-    float: right;
+    float: left;
 
 }
 
@@ -136,6 +136,7 @@ a:active {
 
 body{
     background-color: white;
+    margin: 0px;
 }
 
 .box2 {
@@ -175,6 +176,7 @@ body{
     font-family: 'Spectral SC', serif;
     display:inline;
     text-align: center;
+    max-width: 100%;
 
 
 }
@@ -192,7 +194,7 @@ body{
 .connumber, .emailad, .username,
 .pass1, .pass2, .submit {
     display: inline;
-    width: 300px;
+    max-width: 100%;
     padding: 10px;
     height: 20px;
     border: 10px;

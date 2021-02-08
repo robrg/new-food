@@ -25,12 +25,23 @@
 
 /* Nav Bar */
 
+.box2{
+
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    border: 5px;
+    border-style: solid;
+}
+
 .topMenu li {
     display: inline;
+    float: none;
     font-family: 'Spectral SC', serif;
-    padding: 20px;
-    width: 100px;
+    padding: 2px;
+    width: 0px;
     font-weight: 50px;
+
 }
 
 /* Nav Bar icons */
@@ -93,11 +104,11 @@ a:active {
 /* Login/ Register */
 
 .login {
-    float: right;
-    display: inline;
     list-style: none;
     font-family: 'Spectral SC', serif;
     color: white;
+    height: 25px;
+    width: 10px;
 }
 
 /* Login icons */
@@ -117,7 +128,6 @@ a:active {
 /* Search Bar */
 
 .searchbar {
-    float: right;
     color: #E96C00;
     opacity: 0.5px;
     font-family: 'Spectral SC', serif;
@@ -125,13 +135,19 @@ a:active {
     border: 2px;
     border-color: black;
     border-style: solid;
-    width: 400px;
+    width: 10px;
+    height: 20px;
+
+
+
+
+
 }
 
 .searchbaricon {
     height: 30px;
-    width: auto;
-    float: right;
+
+
 
 }
 
@@ -176,7 +192,7 @@ body{
 
 /* Meats */
 
-.box2 {
+.box3 {
     height: 100%;
     width: auto;
     background-color: black;
