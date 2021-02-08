@@ -23,6 +23,118 @@
     margin-left: 200px
 }
 
+/* Nav Bar */
+
+.topMenu li {
+    display: inline;
+    font-family: 'Spectral SC', serif;
+    padding: 20px;
+    width: 100px;
+    font-weight: 50px;
+}
+
+/* Nav Bar icons */
+
+.homeicon {
+    height: 20px;
+    width: auto;
+
+}
+
+.recepieicon {
+    height: 20px;
+    width: auto;
+
+}
+
+.workouticon {
+    height: 20px;
+    width: auto;
+
+}
+
+.workoutplanicon {
+    height: 20px;
+    width: auto;
+
+}
+
+.contacticon {
+    height: 20px;
+    width: auto;
+
+}
+
+/* Navbar text Click and display behaviour */
+
+a:link {
+    color: #E96C00;
+    text-decoration: none;
+
+}
+
+a:visited {
+    color: green;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: red;
+    text-decoration: none;
+
+}
+
+a:active {
+    color: green;
+    text-decoration: none;
+}
+
+/* Login/ Register */
+
+.login {
+    float: right;
+    display: inline;
+    list-style: none;
+    font-family: 'Spectral SC', serif;
+    color: white;
+}
+
+/* Login icons */
+
+.loginicon {
+    height: 30px;
+    width: auto;
+    margin-top:
+}
+
+.signupicon {
+    height: 25px;
+    width: auto;
+    margin-top:
+}
+
+/* Search Bar */
+
+.searchbar {
+    float: right;
+    color: #E96C00;
+    opacity: 0.5px;
+    font-family: 'Spectral SC', serif;
+    font-size: 20px;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    width: 400px;
+}
+
+.searchbaricon {
+    height: 30px;
+    width: auto;
+    float: right;
+
+}
+
 /* The alert message box */
 
 .alert {
@@ -54,62 +166,12 @@
 .closebtn:hover {
     color: black;
 }
-/* Nav Bar */
-
-.topMenu li {
-    display: inline;
-    font-family: 'Spectral SC', serif;
-    padding: 20px;
-    width: 100px;
-    font-weight: 50px;
-}
-
-/* Navbar text Click and display behaviour */
-
-a:link {
-    color: white;
-    text-decoration: none;
-    text-shadow: 100%;
-}
-
-a:visited {
-    color: white;
-    text-decoration: none;
-    text-shadow: 100%;
-
-}
-
-a:hover {
-    color: #E96C00;
-    text-decoration: none;
-    text-shadow: 100%;
-
-}
-
-a:active {
-    color: #E96C00;
-    text-decoration: none;
-    text-shadow: 100%;
-}
-
-.searchbar {
-        float: right;
-        margin-right: 400px;
-        color: #E96C00;
-        background-color: black;
-        opacity: 0.5px;
-        font-family: 'Spectral SC', serif;
-        font-size: 20px;
-        border: 1px;
-        border-color: white;
-        border-style: solid;
-}
 
 /* Body */
 
 body{
-    background-color: black;
-    background-image: linear-gradient(black, white);
+    background-color: white;
+
 }
 
 /* Meats */
@@ -124,51 +186,23 @@ body{
     margin-left: 100px;
 }
 
-.header{
-    color: white;
-    float: right;
-    font-family: 'Bebas Neue', cursive;;
-}
-
-.meatheader {
-    color: white;
-    text-align: center;
-    font-family: 'Bebas Neue', cursive;
-
-}
-
-.steak  {
-    height: 300px;
-    width: auto;
+#steak {
+    height: auto;
+    width: 300px;
     float: left;
-    margin-top: 20px;
-    margin-right: 20px;
-    margin-bottom: 40px;
-    margin-left: 21px;
 }
 
- .chicken  {
-    height: 400px;
-    width: auto;
+#chicken{
+    height: auto;
+    width: 300px;
     float: left;
-    margin-top: 20px;
-    margin-right: 20px;
-    margin-bottom: 40px;
-    margin-left: 30px;
- }
 
-.turkey {
-    height: 400px;
-    width: 500px;
-    float: left;
-    margin-top: 20px;
-    margin-right: 20px;
-    margin-bottom: 40px;
-    margin-left: 30px;
 }
 
-.clear{
-    clear:both;
+#turkey {
+    height: auto;
+    width: 300px;
+
 }
 
 /* Footer */
@@ -177,7 +211,12 @@ body{
     height: 100px;
     background-color: black;
     width: 100%;
+}
 
+.homeheader {
+    font-family: 'Bebas Neue', cursive;
+    color: #E96C00;
+    width: 100%;
 }
 
 /* Social media buttons */

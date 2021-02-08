@@ -87,26 +87,6 @@ a:active {
     text-decoration: none;
 }
 
-/* Search Bar */
-
-.searchbar {
-        float: right;
-        color: #E96C00;
-        opacity: 0.5px;
-        font-family: 'Spectral SC', serif;
-        font-size: 20px;
-        border: 2px;
-        border-color: black;
-        border-style: solid;
-        width: 400px;
-}
-
-.searchbaricon {
-    height: 30px;
-    width: auto;
-
-}
-
 /* Login/ Register */
 
 .login {
@@ -129,6 +109,27 @@ a:active {
     height: 25px;
     width: auto;
     margin-top:
+}
+
+/* Search Bar */
+
+.searchbar {
+    float: right;
+    color: #E96C00;
+    opacity: 0.5px;
+    font-family: 'Spectral SC', serif;
+    font-size: 20px;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    width: 400px;
+}
+
+.searchbaricon {
+    height: 30px;
+    width: auto;
+    float: right;
+
 }
 
 /* Body */
@@ -163,9 +164,18 @@ body{
     text-decoration: underline;
 }
 
-.registerbenefits {
-    list-style: circle;
+.registerinfo {
     font-family: 'Spectral SC', serif;
+    font-style: oblique;
+
+
+}
+
+.registerbenefits {
+    font-family: 'Spectral SC', serif;
+    display:inline;
+    text-align: center;
+
 
 }
 
