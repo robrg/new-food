@@ -6,7 +6,7 @@
             <meta charset = "utf-8">
             <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
             <meta name = "description" content = "Health and Fitness Website">
-                <link rel = "stylesheet" type = "text/css" href = "contactus.css" media = "screen" />
+                <link rel = "stylesheet" type = "text/css" href = "register.css" media = "screen" />
                 <link rel = "preconnect" href = "https://fonts.gstatic.com">
                 <link href = "https://fonts.googleapis.com/css2?family=Spectral+SC:wght@200&display=swap" rel = "stylesheet">
                 <link rel = "preconnect" href = "https://fonts.gstatic.com">
@@ -21,16 +21,20 @@
 <body>
 
 <!--Logo and Header Box-->
-    <div class = "box1">
-        <img class = "logo" src="logo.jpg">
 
+    <div class="box1">
+        <img src="logo.jpg" class="logo">
         <h1 class = "tagline">Robs Health and Fitness Website</h1>
     </div>
-   <hr>
+    <br>
 <!--Top menu-->
-    <div>
-        <ul class = "topMenu">
-            <li><img src = "images/homeicon.png" class = "homeicon"><a href="#">Home</a></li>
+<div class = "box2">
+
+        <div class = "topMenu">
+            <ul>
+            <li><img src = "images/homeicon.png" class = "homeicon">
+                <a href="#">Home</a></li>
+
             <li><img src = "images/recepieicon.png" class = "recepieicon">
                 <a href = "recepies.html">Recepies</a></li>
 
@@ -42,25 +46,28 @@
 
             <li><img src = "images/contacticon.png" class = "contacticon">
             <li><a href = "#">Contact us</a></li>
+            </ul>
+        </div>
 
-            <li><input type = "text" placeholder = "Looking for something specific?" class = "searchbar">
-            <li><img src="images/searchbaricon.jpg" class = "searchbaricon"></li>
+        <div class = "searchbar">
+            <input type = "text" placeholder = "Looking for something specific?">
+            <img src="images/searchbaricon.jpg" class = "searchbaricon">
+        </div>
 
+        <div class = "login">
+            <ul>
+                <li><img src = "images/loginicon.jpg" class = "loginicon">
+                    <a href="#">Login</a></li>
 
-        <ul class = "login">
-
-            <li><img src = "images/loginicon.jpg" class = "loginicon">
-                <a href="#">Login</a></li>
-
-            <li><img src = "images/signup.png" class = "signupicon">
-                <a href="#">Register</a></li>
-        </ul>
-        <hr>
-    </div>
-
-    <div class= "box2"><hr>
+                <li><img src = "images/signup.png" class = "signupicon">
+                    <a href="#">Register</a></li>
+            </ul>
+        </div>
+</div>
+ <br>
+    <div class= "box3">
         <h1 class = "formheader">Register!</h1>
-       <hr>
+
         <p1 class = "registerinfo">Register your account today for the full free benefits of this website. Once you have a registered account you will entered into a weekly giveaway by email, you could win prizes such as:</p1>
         <br>
         <list class = "registerbenefits">
@@ -71,7 +78,7 @@
             <li>Promotional</li>
         </ul>
         </list>
-        <br>
+
     <div>
       <form class = "registerform" method = "get" action = "#">
 
@@ -137,7 +144,7 @@
             <br><br>
 
             <input type = "submit" value = "Submit">
-            <hr>
+
         </form>
     </div>
 
