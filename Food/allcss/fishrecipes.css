@@ -31,13 +31,14 @@
     background-color: white;
     border: 2px;
     border-style: solid;
+
 }
 
 .topMenu li {
     display: inline;
     float: none;
     font-family: 'Spectral SC', serif;
-    padding: 2px;
+    padding: 30px;
     width: 0px;
     font-weight: 50px;
 
@@ -45,64 +46,29 @@
 
 .topMenu{
     width: 50%;
-    float:left;
-}
-
-/* Nav Bar icons */
-
-.homeicon {
-    height: 20px;
-    width: auto;
-
-}
-
-.recepieicon {
-    height: 20px;
-    width: auto;
-
-}
-
-.workouticon {
-    height: 20px;
-    width: auto;
-
-}
-
-.workoutplanicon {
-    height: 20px;
-    width: auto;
-
-}
-
-.contacticon {
-    height: 20px;
-    width: auto;
-
+    float: left;
 }
 
 /* Navbar text Click and display behaviour */
 
 a:link {
     color: #E96C00;
-    text-decoration: none;
 
 }
 
 a:visited {
     color: green;
-    text-decoration: none;
 
 }
 
 a:hover {
     color: red;
-    text-decoration: none;
 
 }
 
 a:active {
     color: green;
-    text-decoration: none;
+
 }
 
 /* Login/ Register */
@@ -111,14 +77,17 @@ a:active {
     list-style: none;
     font-family: 'Spectral SC', serif;
     color: white;
-    height: 25px;
+    height: 20px;
     width: 20%;
-    float: left;
+    float: right;
+
 }
 
 .login li{
     display: inline;
     padding: 2px;
+    padding: 30px;
+
 }
 
 /* Login icons */
@@ -126,11 +95,13 @@ a:active {
 .loginicon {
     height: 25px;
     width: auto;
+
 }
 
 .signupicon {
-    height: 25px;
+    height: 20px;
     width: auto;
+
 }
 
 /* Search Bar */
@@ -149,15 +120,17 @@ a:active {
     border: 2px;
     border-color: black;
     border-style: solid;
-    margin-top: 10px;
+    margin-top: 5px;
     height: 20px;
-    width: 350px;
+    width: 400px;
+    padding: 10px;
     float: left;
 }
 
 .searchbaricon {
-    height: 30px;
+    height: 40px;
     margin-top: 10px;
+
 }
 
 /* The alert message box */
@@ -209,24 +182,24 @@ body{
     box-shadow: 10px 10px 10px;
 }
 
-.beefheader {
+.fishheader {
     font-family: 'Bebas Neue', cursive;
     text-align: center;
     text-decoration: underline;
     font-size: 40px;
 }
 
-/* Chilli Con Carne */
+/* Chicken Enchiladas */
 
-#box4 {
+#teribox {
     background-color: antiquewhite;
     opacity: 0.7;
     height: 400px;
     width: 100%;
-    margin-bottom:
+    margin-bottom: 50px;
 }
 
-.imgcontainer {
+.tericontainer {
     overflow: hidden;
     height: 300px;
     width: 700px;
@@ -238,13 +211,13 @@ body{
 
 }
 
-.chillicon {
+#teriyakisal{
     height: 300px;
     width: auto;
-
+    min-width: 700px;
 }
 
-.chilliheader {
+#teriheader {
     float: left;
     margin-left: 100px;
     margin-right: 250px;
@@ -254,14 +227,14 @@ body{
     color: #E96C00;
 }
 
-.chillicondesc {
+#tericondesc {
     float: left;
     list-style: none;
     font-family: 'Bebas Neue', cursive;
     margin-left: 60px;
 }
 
-.chilliconinfo {
+.tericoninfo {
     float: left;
     font-family: 'Spectral SC', serif;
     margin-left: 40px;
@@ -271,7 +244,7 @@ body{
 
 /* Chicken korma */
 
-#box5 {
+#kormabox {
     background-color: antiquewhite;
     opacity: 0.7;
     height: 400px;
@@ -296,8 +269,6 @@ body{
     width: auto;
     min-width: 700px;
 
-
-
 }
 
 #kormaheader {
@@ -318,6 +289,59 @@ body{
 }
 
 .kormainfo {
+    float: left;
+    font-family: 'Spectral SC', serif;
+    margin-left: 40px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+}
+
+/* Chicken Fajitas */
+
+#fajitabox {
+    background-color: antiquewhite;
+    opacity: 0.7;
+    height: 400px;
+    width: 100%;
+    margin-bottom:
+}
+
+.fajitacontainer {
+    overflow: hidden;
+    height: 300px;
+    width: 700px;
+    margin-left: 100px;
+    margin-top: 50px;
+    border: 2px;
+    border-style: solid;
+    float: left;
+
+}
+
+.chickfajita {
+    height: 300px;
+    width: auto;
+
+}
+
+.fajitaheader {
+    float: left;
+    margin-left: 100px;
+    margin-right: 250px;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 200px;
+    color: #E96C00;
+}
+
+.fajitacondesc {
+    float: left;
+    list-style: none;
+    font-family: 'Bebas Neue', cursive;
+    margin-left: 60px;
+}
+
+.fajitaconinfo {
     float: left;
     font-family: 'Spectral SC', serif;
     margin-left: 40px;

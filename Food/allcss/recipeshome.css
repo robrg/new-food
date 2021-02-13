@@ -37,7 +37,7 @@
     display: inline;
     float: none;
     font-family: 'Spectral SC', serif;
-    padding: 2px;
+    padding: 30px;
     width: 0px;
     font-weight: 50px;
 
@@ -48,61 +48,26 @@
     float:left;
 }
 
-/* Nav Bar icons */
-
-.homeicon {
-    height: 20px;
-    width: auto;
-
-}
-
-.recepieicon {
-    height: 20px;
-    width: auto;
-
-}
-
-.workouticon {
-    height: 20px;
-    width: auto;
-
-}
-
-.workoutplanicon {
-    height: 20px;
-    width: auto;
-
-}
-
-.contacticon {
-    height: 20px;
-    width: auto;
-
-}
-
 /* Navbar text Click and display behaviour */
 
 a:link {
     color: #E96C00;
-    text-decoration: none;
 
 }
 
 a:visited {
     color: green;
-    text-decoration: none;
 
 }
 
 a:hover {
     color: red;
-    text-decoration: none;
 
 }
 
 a:active {
     color: green;
-    text-decoration: none;
+
 }
 
 /* Login/ Register */
@@ -118,7 +83,7 @@ a:active {
 
 .login li{
     display: inline;
-    padding: 2px;
+    padding: 30px;
 }
 
 /* Login icons */
@@ -149,9 +114,10 @@ a:active {
     border: 2px;
     border-color: black;
     border-style: solid;
-    margin-top: 10px;
+    margin-top: 5px;
     height: 20px;
-    width: 350px;
+    width: 400px;
+    padding: 10px;
     float: left;
 }
 

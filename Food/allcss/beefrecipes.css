@@ -37,10 +37,10 @@
     display: inline;
     float: none;
     font-family: 'Spectral SC', serif;
-    padding: 2px;
+    padding: 30px;
     width: 0px;
     font-weight: 50px;
-    
+
 }
 
 .topMenu{
@@ -48,61 +48,26 @@
     float:left;
 }
 
-/* Nav Bar icons */
-
-.homeicon {
-    height: 20px;
-    width: auto;
-
-}
-
-.recepieicon {
-    height: 20px;
-    width: auto;
-
-}
-
-.workouticon {
-    height: 20px;
-    width: auto;
-
-}
-
-.workoutplanicon {
-    height: 20px;
-    width: auto;
-
-}
-
-.contacticon {
-    height: 20px;
-    width: auto;
-
-}
-
 /* Navbar text Click and display behaviour */
 
 a:link {
     color: #E96C00;
-    text-decoration: none;
 
 }
 
 a:visited {
     color: green;
-    text-decoration: none;
 
 }
 
 a:hover {
     color: red;
-    text-decoration: none;
 
 }
 
 a:active {
     color: green;
-    text-decoration: none;
+
 }
 
 /* Login/ Register */
@@ -119,6 +84,7 @@ a:active {
 .login li{
     display: inline;
     padding: 2px;
+    padding: 30px;
 }
 
 /* Login icons */
@@ -149,9 +115,10 @@ a:active {
     border: 2px;
     border-color: black;
     border-style: solid;
-    margin-top: 10px;
+    margin-top: 5px;
     height: 20px;
-    width: 350px;
+    width: 400px;
+    padding: 10px;
     float: left;
 }
 
@@ -206,29 +173,28 @@ body{
     margin-left: 200px;
     margin-right: 200px;
     margin-top: 100px;
-    box-shadow: 10px 10px 10px;    
+    box-shadow: 10px 10px 10px;
 }
 
-.chickenheader {
+.beefheader {
     font-family: 'Bebas Neue', cursive;
     text-align: center;
     text-decoration: underline;
-    font-size: 40px;    
+    font-size: 40px;
 }
 
-/* Chicken Enchiladas */
+/* Chilli Con Carne */
 
-#enchibox {
+#box4 {
     background-color: antiquewhite;
     opacity: 0.7;
     height: 400px;
-    width: 100%; 
-    margin-bottom: 50px;
-    
+    width: 100%;
+    margin-bottom:
 }
 
-.enchicontainer {
-    overflow: hidden; 
+.imgcontainer {
+    overflow: hidden;
     height: 300px;
     width: 700px;
     margin-left: 100px;
@@ -236,16 +202,16 @@ body{
     border: 2px;
     border-style: solid;
     float: left;
-    
+
 }
 
-#chickenenchi{
+.chillicon {
     height: 300px;
     width: auto;
-    min-width: 700px;
+
 }
 
-#enchiheader {
+.chilliheader {
     float: left;
     margin-left: 100px;
     margin-right: 250px;
@@ -255,33 +221,33 @@ body{
     color: #E96C00;
 }
 
-#enchicondesc {
+.chillicondesc {
     float: left;
     list-style: none;
     font-family: 'Bebas Neue', cursive;
     margin-left: 60px;
 }
 
-.enchiconinfo {
+.chilliconinfo {
     float: left;
     font-family: 'Spectral SC', serif;
     margin-left: 40px;
     margin-right: 100px;
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
 }
 
 /* Chicken korma */
 
-#kormabox {
+#box5 {
     background-color: antiquewhite;
     opacity: 0.7;
     height: 400px;
-    width: 100%; 
-    margin-bottom: 50px;      
+    width: 100%;
+    margin-bottom: 50px;
 }
 
 .kormacontainer {
-    overflow: hidden; 
+    overflow: hidden;
     height: 300px;
     width: 700px;
     margin-left: 100px;
@@ -289,14 +255,16 @@ body{
     border: 2px;
     border-style: solid;
     float: left;
-    
+
 }
 
 #korma {
     height: 300px;
     width: auto;
-    min-width: 700px;  
-    
+    min-width: 700px;
+
+
+
 }
 
 #kormaheader {
@@ -317,59 +285,6 @@ body{
 }
 
 .kormainfo {
-    float: left;
-    font-family: 'Spectral SC', serif;
-    margin-left: 40px;
-    margin-right: 100px;
-    margin-bottom: 20px; 
-}
-
-/* Chicken Fajitas */
-    
-#fajitabox {
-    background-color: antiquewhite;
-    opacity: 0.7;
-    height: 400px;
-    width: 100%; 
-    margin-bottom:  
-}
-
-.fajitacontainer {
-    overflow: hidden; 
-    height: 300px;
-    width: 700px;
-    margin-left: 100px;
-    margin-top: 50px;
-    border: 2px;
-    border-style: solid;
-    float: left;
-    
-}
-
-.chickfajita {
-    height: 300px;
-    width: auto;
-  
-}
-
-.fajitaheader {
-    float: left;
-    margin-left: 100px;
-    margin-right: 250px;
-    font-size: 30px;
-    font-family: 'Bebas Neue', cursive;
-    font-weight: 200px;
-    color: #E96C00;
-}
-
-.fajitacondesc {
-    float: left;
-    list-style: none;
-    font-family: 'Bebas Neue', cursive;
-    margin-left: 60px;
-}
-
-.fajitaconinfo {
     float: left;
     font-family: 'Spectral SC', serif;
     margin-left: 40px;
@@ -398,8 +313,8 @@ body{
 .socialsharebtns{
     height: 40px;
     width: auto;
-    float: left;  
-    
+    float: left;
+
 }
 
 /* Social media buttons Footer */
