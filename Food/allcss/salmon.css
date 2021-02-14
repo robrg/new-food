@@ -12,13 +12,14 @@
     float: right;
     margin-right: 550px;
     font-size: 70px;
-    margin-top: 30px;
+    margin-bottom: 0px;
 
 }
 
 .logo {
     height: auto;
     width: 150px;
+
 }
 
 /* Nav Bar */
@@ -30,6 +31,7 @@
     background-color: white;
     border-bottom: 1px;
     border-bottom-style: solid;
+
 }
 
 .topMenu li {
@@ -61,7 +63,6 @@ a:visited {
 a:hover {
     color: red;
 
-
 }
 
 a:active {
@@ -82,6 +83,7 @@ a:active {
 
 .login li{
     display: inline;
+    padding: 2px;
     padding: 30px;
 }
 
@@ -90,7 +92,6 @@ a:active {
 .loginicon {
     height: 25px;
     width: auto;
-
 }
 
 .signupicon {
@@ -123,7 +124,10 @@ a:active {
 
 .searchbaricon {
     height: 40px;
-    margin-top: 10px;
+    margin-top: 5px;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
 }
 
 /* The alert message box */
@@ -169,179 +173,83 @@ body{
     background-color: white;
     max-width: 100%;
     height: 1800px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 350px;
+    margin-right: 350px;
     margin-top: 100px;
     box-shadow: 10px 10px 10px;
+
 }
 
-.chickenheader {
+#teriyakiheader {
     font-family: 'Bebas Neue', cursive;
+    color: #E96C00;
+    font-size: 60px;
     text-align: center;
-    text-decoration: underline;
-    font-size: 40px;
-}
-
-/* Chicken Enchiladas */
-
-#enchibox {
-    background-color: antiquewhite;
-    opacity: 0.7;
-    height: 400px;
-    width: 100%;
-    margin-bottom: 50px;
 
 }
 
-.enchicontainer {
+.tericontainer {
     overflow: hidden;
     height: 300px;
     width: 700px;
     margin-left: 100px;
-    margin-top: 50px;
     border: 2px;
     border-style: solid;
     float: left;
 
 }
 
-#chickenenchi{
+#teriyakiimg{
     height: 300px;
     width: auto;
     min-width: 700px;
 }
 
-#enchiheader {
-    float: left;
-    margin-left: 100px;
-    margin-right: 250px;
-    font-size: 30px;
+#macrosubhead {
+    float: none;
     font-family: 'Bebas Neue', cursive;
-    font-weight: 200px;
     color: #E96C00;
+    font-size: 30px;
+    margin-top: 70px;
+    margin-left: 100px;
+
 }
 
-#enchicondesc {
+#cookinginfo {
+    float: right;
+    font-family: 'Bebas Neue', cursive;
+    color: #E96C00;
+    margin-right: 90px;
+    font-size: 30px;
+}
+
+#macrolist {
+    font-family: 'Bebas Neue', cursive;
+    float: left;
+    display: inline;
+    list-style: none;
+    margin-top: 20px9;
+
+}
+
+#tericondesc {
     float: left;
     list-style: none;
     font-family: 'Bebas Neue', cursive;
-    margin-left: 60px;
+    margin-left: 20px;
+
 }
 
-.enchiconinfo {
-    float: left;
+#salmoninfo {
     font-family: 'Spectral SC', serif;
-    margin-left: 40px;
-    margin-right: 100px;
-    margin-bottom: 20px;
-}
-
-/* Chicken korma */
-
-#kormabox {
-    background-color: antiquewhite;
-    opacity: 0.7;
-    height: 400px;
-    width: 100%;
-    margin-bottom: 50px;
-}
-
-.kormacontainer {
-    overflow: hidden;
-    height: 300px;
-    width: 700px;
-    margin-left: 100px;
+    float: left;
     margin-top: 50px;
-    border: 2px;
-    border-style: solid;
-    float: left;
+    margin-left: 50px;
 
 }
 
-#korma {
-    height: 300px;
-    width: auto;
-    min-width: 700px;
 
-}
 
-#kormaheader {
-    float: left;
-    margin-left: 100px;
-    margin-right: 250px;
-    font-size: 30px;
-    font-family: 'Bebas Neue', cursive;
-    font-weight: 200px;
-    color: #E96C00;
-}
-
-#kormacondesc {
-    float: left;
-    list-style: none;
-    font-family: 'Bebas Neue', cursive;
-    margin-left: 60px;
-}
-
-.kormainfo {
-    float: left;
-    font-family: 'Spectral SC', serif;
-    margin-left: 40px;
-    margin-right: 100px;
-    margin-bottom: 20px;
-}
-
-/* Chicken Fajitas */
-
-#fajitabox {
-    background-color: antiquewhite;
-    opacity: 0.7;
-    height: 400px;
-    width: 100%;
-    margin-bottom:
-}
-
-.fajitacontainer {
-    overflow: hidden;
-    height: 300px;
-    width: 700px;
-    margin-left: 100px;
-    margin-top: 50px;
-    border: 2px;
-    border-style: solid;
-    float: left;
-
-}
-
-.chickfajita {
-    height: 300px;
-    width: auto;
-
-}
-
-.fajitaheader {
-    float: left;
-    margin-left: 100px;
-    margin-right: 250px;
-    font-size: 30px;
-    font-family: 'Bebas Neue', cursive;
-    font-weight: 200px;
-    color: #E96C00;
-}
-
-.fajitacondesc {
-    float: left;
-    list-style: none;
-    font-family: 'Bebas Neue', cursive;
-    margin-left: 60px;
-}
-
-.fajitaconinfo {
-    float: left;
-    font-family: 'Spectral SC', serif;
-    margin-left: 40px;
-    margin-right: 100px;
-    margin-bottom: 20px;
-}
 
 /* Footer */
 

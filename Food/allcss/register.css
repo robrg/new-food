@@ -3,8 +3,7 @@
     height: 150px;
     width: 100%;
     background-color: black;
-    border: 20px;
-    border-color:
+
 }
 
 .tagline{
@@ -24,13 +23,12 @@
 
 /* Nav Bar */
 
-.box2{
-
+.box2 {
     height: 50px;
     width: 100%;
     background-color: white;
-    border: 2px;
-    border-style: solid;
+    border-bottom: 1px;
+    border-bottom-style: solid;
 }
 
 
@@ -38,8 +36,7 @@
     display: inline;
     float: none;
     font-family: 'Spectral SC', serif;
-    padding: 2px;
-    width: 0px;
+    padding: 30px;
     font-weight: 50px;
 
 }
@@ -84,21 +81,21 @@ a:active {
 
 .login li{
     display: inline;
-    padding: 2px;
+    padding: 30px;
 }
 
 /* Login icons */
 
 .loginicon {
-    height: 30px;
+    height: 25px;
     width: auto;
-    margin-top:
+
 }
 
 .signupicon {
-    height: 25px;
+    height: 20px;
     width: auto;
-    margin-top:
+
 }
 
 /* Search Bar */
@@ -114,18 +111,18 @@ a:active {
     opacity: 0.5px;
     font-family: 'Spectral SC', serif;
     font-size: 20px;
-    border: 2px;
+    border: 1px;
     border-color: black;
     border-style: solid;
     margin-top: 5px;
     height: 20px;
-    width: 400px;
+    width: 500px;
     padding: 10px;
     float: left;
 }
 
 .searchbaricon {
-    height: 30px;
+    height: 40px;
     margin-top: 10px;
 
 }
