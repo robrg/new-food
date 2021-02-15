@@ -177,7 +177,7 @@ body{
 .wrapper {
     background-color: white;
     max-width: 100%;
-    height: 1500px;
+    height: 2300px;
     margin-left: 350px;
     margin-right: 350px;
 
@@ -359,6 +359,7 @@ body{
     margin-top: 20px;
     margin-left: 50px;
     margin-bottom: 0px;
+    margin-right: 600px;
     display: inline-block;
 
 }
@@ -435,6 +436,53 @@ body{
 
 }
 
+#step5 {
+   float: left;
+    font-size: 18px;
+    font-family: 'Spectral SC', serif;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    margin-right: 350px;
+    display: inline-block;
+
+}
+
+#step5des {
+    float: left;
+    font-size: 18px;
+    font-family: 'Spectral SC', serif;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    margin-right: 350px;
+    display: inline-block;
+
+}
+
+#step6 {
+    float: left;
+    font-size: 18px;
+    font-family: 'Spectral SC', serif;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    margin-right: 350px;
+    display: inline-block;
+
+}
+
+#step6des {
+    float: left;
+    font-size: 18px;
+    font-family: 'Spectral SC', serif;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    margin-right: 350px;
+    display: inline-block;
+
+}
 
 /* Footer */
 
