@@ -21,6 +21,11 @@
 
 }
 
+.registerform label{
+    width: 80px;
+    display:inline-block;
+}
+
 /* Nav Bar */
 
 .box2 {
