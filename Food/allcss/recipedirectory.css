@@ -33,11 +33,10 @@
 
 }
 
-.navbar li {
+.navlist > li {
     display: inline;
-    float: left;
     font-family: 'Spectral SC', serif;
-    padding: 30px;
+    padding: 10px;
     font-weight: 50px;
 }
 
@@ -46,8 +45,25 @@
     float:left;
 }
 
+.navlist{
+    margin:0px;
+}
 
-li, .dropdownrecimenu {
+.submenu{
+    display: inline-grid;
+    padding:0px;
+}
+
+.submenu li{
+    display: inline;
+}
+
+.subMenuItem{
+    display: none;
+}
+
+
+.dropdownrecimenu {
         display: block;
 
 }

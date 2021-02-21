@@ -32,25 +32,22 @@
 
 <div class = "navwrapper">
 
-        <div class = "navbar">
-            <ul>
-                <li><a href = "index.html">Home</a></li>
-                <li><a href = "recipeshome.html">Recipes</a>
-
-                <div class = "dropdownrecimenu">
-                    <a href = "#">Beef Recipes</a>
-                    <a href = "#">Chicken Recipes</a>
-                    <a href = "#">Fish Recipes</a>
-                </div>
-
-                <div>
-                    <li><a href = "workouts.html">Workouts</a></li>
-                    <li><a href = "#">Workout Planner</a></li>
-                    <li><a href = "#">Contact us</a></li>
-                </div>
-                </li>
-            </ul>
-        </div>
+    <div class = "navbar">
+        <ul class = "navlist">
+            <li><a href = "index.html">Home</a></li>
+            <li>
+                <ul class = "submenu" onmouseleave="hideSubMenu(this)">
+                    <li onmouseover = "showSubMenu(this)"><a href = "recipeshome.html">Recipes</a></li>
+                    <li class = "subMenuItem"><a href = "#">Beef Recipes</a></li>
+                    <li class = "subMenuItem"><a href = "#">Chicken Recipes</a></li>
+                    <li class = "subMenuItem"><a href = "#">Fish Recipes</a></li>
+                </ul>
+            </li>
+            <li><a href = "workouts.html">Workouts</a></li>
+            <li><a href = "#">Workout Planner</a></li>
+            <li><a href = "#">Contact us</a></li>
+        </ul>
+    </div>
 
 
     <div class = "searchbar">
@@ -153,3 +150,19 @@
 </body>
 
 </html>
+
+<script>
+    function showSubMenu(menuItem){
+        var items = menuItem.parentNode.getElementsByClassName("subMenuItem");
+        for (i = 0; i < items.length; i++) {
+            items[i].style.display = "inline";
+        }
+    }
+
+    function hideSubMenu(menu){
+        var items = menu.getElementsByClassName("subMenuItem");
+        for (i = 0; i < items.length; i++) {
+            items[i].style.display = "none";
+        }
+    }
+</script>
