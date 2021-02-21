@@ -214,7 +214,7 @@ body{
 #macrosubhead {
     float: left;
     font-family: 'Bebas Neue', cursive;
-    color: #E96C00;
+    color: #b21818;
     font-size: 30px;
     margin-left: 40px;
     margin-top: 50px;
@@ -225,7 +225,7 @@ body{
 #cookinginfo {
     float: left;
     font-family: 'Bebas Neue', cursive;
-    color: #E96C00;
+    color: #b21818;
     font-size: 30px;
     margin-right: 165px;
     margin-left: 100px;
@@ -258,7 +258,7 @@ body{
 .ingredientshead {
     font-size: 30px;
     font-family: 'Bebas Neue', cursive;
-    color: #E96C00;
+    color: #b21818;
     margin-top: 0px;
     margin-left: 190px;
     margin-bottom: 20px;
@@ -276,7 +276,7 @@ body{
     margin-bottom: 0px;
     margin-right: 10px;
     margin-top: 20px;
-    color: #E96C00;
+    color: #b21818;
 
 }
 
@@ -331,7 +331,7 @@ body{
     margin-left: 20px;
     margin-top: 20px;
     margin-bottom: 0px;
-    color: #E96C00;
+    color: #b21818;
     font-family: 'Bebas Neue', cursive;
 
 }
@@ -354,9 +354,9 @@ body{
     margin-right: 0px;
     margin-top: 50px;
     margin-bottom: 0px;
-    color: #E96C00;
+    color: #b21818;
     font-family: 'Bebas Neue', cursive;
-    text-decoration-color: #E96C00;
+
 }
 
 .step1box {
@@ -383,7 +383,7 @@ body{
     margin-bottom: 0px;
     margin-right: 0px;
     font-family: 'Bebas Neue', cursive;
-    color: #E96C00;
+    color: #b21818;
 
 }
 
@@ -407,7 +407,7 @@ body{
     margin-bottom: 20px;
     margin-right: 0px;
     font-family: 'Bebas Neue', cursive;
-    color: #E96C00;
+    color: #b21818;
 
 }
 
@@ -430,7 +430,7 @@ body{
     margin-bottom: 0px;
     margin-right: 0px;
     font-family: 'Bebas Neue', cursive;
-    color: #E96C00;
+    color: #b21818;
 
 }
 
@@ -450,7 +450,7 @@ body{
    float: left;
     font-size: 30px;
     font-family: 'Bebas Neue', cursive;
-    color: #E96C00;
+    color: #b21818;
     margin-top: 20px;
     margin-left: 50px;
     margin-bottom: 0px;
@@ -474,7 +474,7 @@ body{
     float: left;
     font-size: 30px;
     font-family: 'Bebas Neue', cursive;
-    color: #E96C00;
+    color: #b21818;
     margin-top: 20px;
     margin-left: 50px;
     margin-bottom: 0px;

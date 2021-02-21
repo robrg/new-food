@@ -52,13 +52,13 @@
 /* Navbar text Click and display behaviour */
 
 a:link {
-    color: #E96C00;
+    color: #b21818;
     text-decoration: none;
 
 }
 
 a:visited {
-    color: green;
+    color: #4743;
     text-decoration: none;
 
 }
@@ -69,7 +69,7 @@ a:hover {
 }
 
 a:active {
-    color: green;
+    color: dodgerblue;
     text-decoration: none;
 
 }
@@ -213,7 +213,7 @@ body{
 #macrosubhead {
     float: left;
     font-family: 'Bebas Neue', cursive;
-    color: #E96C00;
+    color: #b21818;
     font-size: 30px;
     margin-left: 40px;
     margin-top: 50px;
@@ -224,7 +224,7 @@ body{
 #cookinginfo {
     float: right;
     font-family: 'Bebas Neue', cursive;
-    color: #E96C00;
+    color: #b21818;
     font-size: 30px;
     margin-right: 165px;
     margin-top: 50px;
@@ -256,7 +256,7 @@ body{
 .ingredientshead {
     font-size: 30px;
     font-family: 'Bebas Neue', cursive;
-    color: #E96C00;
+    color: #b21818;
     margin-left: 50px;
     margin-top: 50px;
     margin-bottom: 20px;
@@ -272,7 +272,7 @@ body{
     margin-left: 40px;
     margin-bottom: 0px;
     margin-top: 20px;
-    color: #E96C00;
+    color: #b21818;
 
 }
 
@@ -313,7 +313,7 @@ body{
     margin-left: 70px;
     margin-top: 10px;
     margin-bottom: 0px;
-    color: #E96C00;
+    color: #b21818;
     font-family: 'Bebas Neue', cursive;
 
 }
@@ -336,7 +336,7 @@ body{
     margin-right: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
-    color: #E96C00;
+    color: #b21818;
     font-family: 'Bebas Neue', cursive;
     text-decoration-color: #E96C00;
 }
@@ -366,7 +366,7 @@ body{
     margin-bottom: 0px;
     margin-right: 0px;
     font-family: 'Bebas Neue', cursive;
-    color: #E96C00;
+    color: #b21818;
 
 }
 
@@ -389,7 +389,7 @@ body{
     margin-bottom: 0px;
     margin-right: 35px;
     font-family: 'Bebas Neue', cursive;
-    color: #E96C00;
+    color: #b21818;
 
 }
 
