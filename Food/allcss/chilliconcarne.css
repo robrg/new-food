@@ -91,18 +91,6 @@ a:active {
     padding: 30px;
 }
 
-/* Login icons */
-
-.loginicon {
-    height: 25px;
-    width: auto;
-}
-
-.signupicon {
-    height: 20px;
-    width: auto;
-}
-
 /* Search Bar */
 
 .searchbar {
@@ -132,7 +120,7 @@ a:active {
     border: 1px;
     border-color: black;
     border-style: solid;
-    background-color: #718EA4;
+    background-color: #4743
 }
 
 /* The alert message box */
@@ -170,14 +158,14 @@ a:active {
 /* Body */
 
 body{
-    background-color: #718EA4;
+    background-color: #4743;
     margin: 0px;
 }
 
 .wrapper {
     background-color: white;
     max-width: 100%;
-    height: 2300px;
+    height: 1200px;
     margin-left: 350px;
     margin-right: 350px;
 
@@ -189,13 +177,24 @@ body{
     width: 100%;
 }
 
-#kormaheader {
+#chillireciheader {
     font-family: 'Bebas Neue', cursive;
     color: black;
     font-size: 60px;
     text-align: center;
     margin-bottom: 0px;
     margin-top: 0px;
+
+}
+
+#chillirecivid {
+    margin-left: 50px;
+    margin-top: 50px;
+    border: 2px;
+    border-style: solid;
+    float: left;
+    height: 300px;
+    width: 600px;
 
 }
 
@@ -223,12 +222,11 @@ body{
 }
 
 #cookinginfo {
-    float: left;
+    float: right;
     font-family: 'Bebas Neue', cursive;
     color: #E96C00;
     font-size: 30px;
     margin-right: 165px;
-    margin-left: 100px;
     margin-top: 50px;
     margin-bottom: 20px;
     text-decoration-color: #E96C00;
@@ -241,12 +239,12 @@ body{
     display: inline;
     font-size: 15px;
     margin-top: 0px;
-    margin-bottom: 80px;
+    margin-bottom: 0px
 
 }
 
-#kormacondesc {
-    float: left;
+#chilliconrecidesc {
+    float: right;
     font-family: 'Spectral SC', serif;
     font-size: 15px;
     margin-top: 0px;
@@ -259,12 +257,11 @@ body{
     font-size: 30px;
     font-family: 'Bebas Neue', cursive;
     color: #E96C00;
-    margin-top: 0px;
-    margin-left: 190px;
+    margin-left: 50px;
+    margin-top: 50px;
     margin-bottom: 20px;
     margin-right: 0px;
     float: left;
-
 }
 
 /* Social media share buttons for recipies */
@@ -272,9 +269,8 @@ body{
 #terishareto {
     font-family: 'Bebas Neue', cursive;
     float: left;
-    margin-left: 180px;
+    margin-left: 40px;
     margin-bottom: 0px;
-    margin-right: 10px;
     margin-top: 20px;
     color: #E96C00;
 
@@ -286,13 +282,12 @@ body{
     float: left;
     margin-bottom: 0px;
     margin-left 0px;
-    margin-right: 0px;
-    margin-top: 5px;
+    margin-right: 10px
 }
 
 .ingredients {
     float: left;
-    display: inline-block;
+    display: block;
     font-size: 15px;
     font-family: 'Spectral SC', serif;
     margin-top: 0px;
@@ -300,36 +295,23 @@ body{
     margin-right: 20px;
     margin-left: 50px;
 
+
 }
 
-#kormainfo {
+#chilliinfo {
     font-family: 'Spectral SC', serif;
     float: right;
     font-size: 18px;
     font-style: italic;
-    margin-left: 100px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    margin-top: 0px;
-}
-
-
-#kormavid {
     margin-left: 50px;
-    margin-top: 50px;
-    border: 2px;
-    border-style: solid;
-    float: left;
-    height: 300px;
-    width: 600px;
-
+    margin-right: 20px;
 }
 
 #raterecipehead {
     float: left;
     margin-right: 0px;
-    margin-left: 20px;
-    margin-top: 20px;
+    margin-left: 70px;
+    margin-top: 10px;
     margin-bottom: 0px;
     color: #E96C00;
     font-family: 'Bebas Neue', cursive;
@@ -340,46 +322,47 @@ body{
     float: left;
     height: 30px;
     width: auto;
-    margin-top: 15px;
+    margin-top: 0px;
     margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
+    margin-right: 100px;
+    margin-bottom: 50px;
 }
 
 
 #step1 {
     float: left;
-    margin-left: 50px;
+    margin-left: 0px;
     font-size: 30px;
     margin-right: 0px;
-    margin-top: 50px;
+    margin-top: 0px;
     margin-bottom: 0px;
     color: #E96C00;
     font-family: 'Bebas Neue', cursive;
     text-decoration-color: #E96C00;
 }
 
-.step1box {
-    height 200px;
-    width: 45%;
-    float: right;
+#step1ccbox {
+    height: 200px;
+    width: 40%;
+    float: left;
 }
 
 #step1des {
     font-size: 18px;
     font-family: 'Spectral SC', serif;
-    margin-top: 50px;
-    margin-left: 50px;
-    margin-bottom: 0px;
-    margin-right: 0px;
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    float: left;
 
 }
 
 #step2 {
     float: left;
     font-size: 30px;
-    margin-left: 50px;
-    margin-top: 180px;
+    margin-left: 0px;
+    margin-top: 0px;
     margin-bottom: 0px;
     margin-right: 0px;
     font-family: 'Bebas Neue', cursive;
@@ -387,110 +370,37 @@ body{
 
 }
 
-
 #step2des {
-    float: left;
+    float: right;
     font-size: 18px;
     font-family: 'Spectral SC', serif;
-    margin-top: 20px;
-    margin-left: 130px;
+    margin-top: 0px;
+    margin-right: 35px;
+    margin-left: 0px;
     margin-bottom: 0px;
-    margin-right: 0px;
 
 }
 
 #step3 {
-    float: left;
+    float: right;
     font-size: 30px;
-    margin-left: 50px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 90px;
+    margin-bottom: 0px;
+    margin-right: 35px;
     font-family: 'Bebas Neue', cursive;
     color: #E96C00;
 
 }
 
 #step3des {
-    float: left;
+    float: right;
     font-size: 18px;
     font-family: 'Spectral SC', serif;
-    margin-top: 20px;
-    margin-right: 20px;
-    margin-left: 130px;
+    margin-top: 0px;
+    margin-right: 60px;
+    margin-left: 0px;
     margin-bottom: 0px;
-
-}
-
-#step4 {
-    float: left;
-    font-size: 30px;
-    margin-left: 50px;
-    margin-top: 20px;
-    margin-bottom: 0px;
-    margin-right: 0px;
-    font-family: 'Bebas Neue', cursive;
-    color: #E96C00;
-
-}
-
-#step4des {
-    float: left;
-    font-size: 18px;
-    font-family: 'Spectral SC', serif;
-    margin-top: 20px;
-    margin-left: 50px;
-    margin-bottom: 0px;
-    margin-right: 600px;
-
-
-}
-
-#step5 {
-   float: left;
-    font-size: 30px;
-    font-family: 'Bebas Neue', cursive;
-    color: #E96C00;
-    margin-top: 20px;
-    margin-left: 50px;
-    margin-bottom: 0px;
-    margin-right: 600px;
-
-}
-
-#step5des {
-    float: left;
-    font-size: 18px;
-    font-family: 'Spectral SC', serif;
-    margin-top: 20px;
-    margin-left: 50px;
-    margin-bottom: 0px;
-    margin-right: 600px;
-
-
-}
-
-#step6 {
-    float: left;
-    font-size: 30px;
-    font-family: 'Bebas Neue', cursive;
-    color: #E96C00;
-    margin-top: 20px;
-    margin-left: 50px;
-    margin-bottom: 0px;
-    margin-right: 600px;
-
-}
-
-#step6des {
-    float: left;
-    font-size: 18px;
-    font-family: 'Spectral SC', serif;
-    margin-top: 20px;
-    margin-left: 50px;
-    margin-bottom: 50px;
-    margin-right: 600px;
-
 
 }
 
