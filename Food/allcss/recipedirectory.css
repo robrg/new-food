@@ -43,27 +43,30 @@
 .navbar{
     width: 50%;
     float:left;
+
 }
 
 .navlist{
-    margin:0px;
+    margin-top: 0px;
+
 }
 
 .submenu{
     display: inline-grid;
-    padding:0px;
+    padding: 0px;
 }
 
 .submenu li{
     display: inline;
+    background-color: white;
+    padding: 10px;
+
 }
 
 .subMenuItem{
     display: none;
+    border: 1px solid #4743;
 }
-
-
-
 
 /* Navbar text Click and display behaviour */
 
@@ -196,9 +199,10 @@ body{
     font-family: 'Bebas Neue', cursive;
     font-size: 40px;
     text-align: center;
-    margin-top: 70px;
+    margin-top: 150px;
     margin-bottom: 0px;
     background-color: white;
+
 }
 
 #directorypara {

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+            <meta charset = "utf-8">
+            <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+            <meta name = "description" content = "Robby's Favourite Meals">
+                <link rel = "stylesheet" type = "text/css" href = "allcss/recipes.css" media = "screen" />
+                <link rel = "preconnect" href = "https://fonts.gstatic.com">
+                <link href = "https://fonts.googleapis.com/css2?family=Spectral+SC:wght@200&display=swap" rel = "stylesheet">
+                <link rel = "preconnect" href = "https://fonts.gstatic.com">
+                <link rel = "preconnect" href = "https://fonts.gstatic.com">
+                <link href = "https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel = "stylesheet">
+                <link rel = "icon" href = "images/logo.jpg">
+
+            <title>Robby's Health and Fitness</title>
+
+</head>
+
+<body>
+
+<!--Logo and Header Box-->
+
+<div class = "box1">
+    <img src = "images/drawing.svg" class = "logo">
+        <h1 class = "tagline">Robs Health and Fitness Website</h1>
+</div>
+    <br>
+
+<!--Top menu-->
+
+<div class = "navwrapper">
+
+    <div class = "navbar">
+        <ul class = "navlist">
+            <li><a href = "index.html">Home</a></li>
+            <li>
+                <ul class = "submenu" onmouseleave="hideSubMenu(this)">
+                    <li onmouseover = "showSubMenu(this)"><a href = "recipes.html">Recipes</a></li>
+                    <li class = "subMenuItem"><a href = "#">Beef Recipes</a></li>
+                    <li class = "subMenuItem"><a href = "#">Chicken Recipes</a></li>
+                    <li class = "subMenuItem"><a href = "#">Fish Recipes</a></li>
+                </ul>
+            </li>
+            <li><a href = "workouts.html">Workouts</a></li>
+            <li><a href = "#">Workout Planner</a></li>
+            <li><a href = "#">Contact us</a></li>
+        </ul>
+    </div>
+
+    <div class = "searchbar">
+        <input type = "text" placeholder = "Looking for something specific?">
+            <img src = "images/searchbaricon.jpg" class = "searchbaricon">
+    </div>
+
+    <div class = "login">
+        <ul>
+            <li><a href="#">Login</a></li>
+
+            <li><a href = "register.html">Register</a></li>
+        </ul>
+    </div>
+
+</div>
+
+<div class = "wrapper">
+
+    <div id = "subwrapbox">
+
+        <div class = "foodcontain">
+            <img src = "images/food.jpg" id = "food" alt = "food">
+        </div>
+
+        <h2 class = "mainheader">Healthy Meal Plans</h2>
+
+        <div id = "infocontain">
+            <p class = "infopara">Welcome to my Meal plans, I have created a list of some of my favourite meals that i use as a part of my diet. All of the macro's and ingrediants are listed on the full recipe pages, click the images to go to the full recipe or to watch a video guide.</p>
+        </div>
+
+        <h3 id = "top9">My Top 9 Meals!</h3>
+
+        <div id = "wrappercontain">
+
+            <div id = "fajitacontain">
+                <a href = "#">
+                    <img src = "images/fajitas.jpg" id = "fajita">
+                </a>
+                    <div id = "fajitadesc">Chicken fajita's</div>
+            </div>
+
+            <div id = "enchicontain">
+                <a href = "#">
+                    <img src = "images/chickenenchi.jpg" id = "enchi">
+                </a>
+                    <div id = "enchidesc">Chicken Enchiladas</div>
+            </div>
+
+            <div id = "kormacontain">
+                <a href = "korma.html">
+                    <img src = "images/korma.jpg" id = "korma">
+                </a>
+                    <div id = "kormadesc">Chicken Korma</div>
+            </div>
+
+            <div id = "chillicontain">
+                <a href = "chilliconcarne.html">
+                    <img src = "images/concarne.jpg" id = "concarne">
+                </a>
+                    <div id = "chillidesc">Chilli Con Carne</div>
+            </div>
+
+            <div id = "steakcontain">
+                <a href = "#">
+                    <img src = "images/steak.jpg" id = "steak">
+                </a>
+                    <div id = "steakdesc">Fillet Steak</div>
+            </div>
+
+            <div id = "monbeefcontain">
+                <a href = "#">
+                    <img src = "images/monbeef.jpg" id = "monbeef">
+                </a>
+                    <div id = "mongoliandesc">Mongolian beef</div>
+            </div>
+
+            <div id = "salmoncontain">
+                <a href = "salmon.html">
+                    <img src = "images/salmon.jpg" id = "salmon">
+                </a>
+                    <div id = "salmondesc">Teriyaki Salmon</div>
+            </div>
+
+            <div id = "seabasscontain">
+                <a href = "#">
+                    <img src = "images/seabass.jpg" id = "seabass">
+                </a>
+                    <div id = "bassdesc">Fried Sea Bass</div>
+            </div>
+
+            <div id = "burgercontain">
+                <a href = "#">
+                    <img src = "images/burgers.jpg" id = "burger">
+                </a>
+                    <div id = "burgerdesc">Homemade Beef burgers</div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!--Footer-->
+
+    <div class = "footer">
+
+
+
+<!-- Social media buttons links -->
+
+        <a href = "https://www.facebook.com">
+            <img class = "social" src = "images/facebook-logo.png" id = "facebook-logo" target = "_blank">
+        </a>
+
+        <a href = "https://www.twitter.co.uk">
+            <img class = "social" src = "images/twitter-logo.png" id = "twitter-logo" target = "_blank">
+        </a>
+
+        <a href = "https://www.instagram.com">
+            <img class = "social" src = "images/instagram-logo.png" id = "instagram-logo" target = "_blank">
+        </a>
+
+        <a href = "https://www.snapchat.com">
+            <img class = "social" src = "images/snapchat-logo.png" id = "snapchat-logo" target = "_blank">
+        </a>
+    </div>
+
+
+</body>
+
+</html>
+
+<script>
+
+    function showSubMenu(menuItem){
+        var items = menuItem.parentNode.getElementsByClassName("subMenuItem");
+        for (i = 0; i < items.length; i++) {
+            items[i].style.display = "inline";
+        }
+    }
+
+    function hideSubMenu(menu){
+        var items = menu.getElementsByClassName("subMenuItem");
+        for (i = 0; i < items.length; i++) {
+            items[i].style.display = "none";
+        }
+    }
+</script>

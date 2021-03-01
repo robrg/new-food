@@ -1,0 +1,523 @@
+/* Navigation Bar and Logo*/
+.box1{
+    height: 150px;
+    width: 100%;
+    background-color:white;
+
+}
+
+.tagline{
+    font-family: 'Bebas Neue', cursive;
+    color: black;
+    float: right;
+    margin-right: 550px;
+    font-size: 70px;
+    margin-bottom: 0px;
+
+}
+
+.logo {
+    height: auto;
+    width: 150px;
+
+}
+
+/* Nav Bar */
+
+.navwrapper{
+    height: 50px;
+    width: 100%;
+    margin-bottom: 100px;
+    background-color: white;
+
+
+}
+
+.navlist > li {
+    display: inline;
+    font-family: 'Spectral SC', serif;
+    padding: 10px;
+    font-weight: 50px;
+
+}
+
+.navbar{
+    width: 50%;
+    float: left;
+    position: absolute;
+}
+
+.navlist{
+    margin-top: 0px;
+    position: absolute;
+
+
+}
+
+.submenu{
+    display: inline-grid;
+    padding: 0px;
+
+
+}
+
+.submenu li{
+    display: inline;
+    background-color: white;
+    padding: 10px;
+
+}
+
+.subMenuItem{
+    display: none;
+    border: 1px solid #4743;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+}
+
+/* Navbar text Click and display behaviour */
+
+a:link {
+    color: #b21818;
+    text-decoration: none;
+
+}
+
+a:visited {
+    color: #4743;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+a:active {
+    color: dodgerblue;
+    text-decoration: none;
+
+}
+
+/* Login/ Register */
+
+.login {
+    list-style: none;
+    font-family: 'Spectral SC', serif;
+    color: white;
+    height: 5px;
+    width: 20%;
+    float: right;
+
+}
+
+.login li{
+    display: inline;
+    padding: 30px;
+}
+
+/* Search Bar */
+
+.searchbar {
+    opacity: 0.5px;
+    width: 30%;
+    float: right;
+}
+
+.searchbar input {
+    color: #b21818;
+    opacity: 0.5px;
+    font-family: 'Spectral SC', serif;
+    font-size: 20px;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    margin-top: 5px;
+    height: 20px;
+    width: 400px;
+    padding: 10px;
+    float: left;
+}
+
+.searchbaricon {
+    height: 40px;
+    margin-top: 5px;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    background-color: #4743;
+}
+
+/* When moving the mouse over the close button */
+
+.closebtn:hover {
+    color: black;
+}
+
+/* Body */
+
+body{
+    background-color: #4743;
+    margin: 0px;
+}
+
+.wrapper {
+    background-color: white;
+    max-width: 100%;
+    height: auto;
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
+
+#subwrapbox {
+    height: 3000px;
+    width: 100%;
+
+}
+
+.foodcontain {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+
+
+}
+
+#food {
+    height: auto;
+    width: 100%;
+    opacity: 70%;
+
+}
+
+.mainheader {
+    font-family: 'Bebas Neue', cursive;
+    color: #b21818;
+    font-size: 50px;
+    margin-left: 50px;
+    text-align: center;
+
+}
+
+#infocontain {
+    text-align: center;
+    height: auto;
+    width: 40%;
+    margin-left: 500px;
+}
+
+.infopara {
+    font-family: 'Spectral SC', serif;
+    font-size: 20px;
+    margin-top: 0%;
+    text-align: center;
+}
+
+#top9 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    margin-left: 50px;
+    text-align: center;
+    margin-bottom: 0px;
+    color: #b21818;
+
+}
+
+#wrappercontain {
+    height: 100%;
+    width: 90%;
+
+}
+
+#fajita:Hover {
+    opacity: 50%;
+    border: 2px #b21818 solid;
+
+}
+
+#enchi:Hover {
+    opacity: 50%;
+    border: 2px #b21818 solid;
+
+}
+
+
+#korma:Hover {
+    opacity: 50%;
+    border: 2px #b21818 solid;
+
+}
+
+#concarne:Hover {
+    opacity: 50%;
+    border: 2px #b21818 solid;
+
+}
+
+#steak:Hover {
+    opacity: 50%;
+    border: 2px #b21818 solid;
+
+}
+
+#monbeef:Hover {
+    opacity: 50%;
+    border: 2px #b21818 solid;
+
+}
+
+#salmon:Hover {
+    opacity: 50%;
+    border: 2px #b21818 solid;
+
+}
+
+#seabass:Hover {
+    opacity: 50%;
+    border: 2px #b21818 solid;
+
+}
+
+#burger:Hover {
+    opacity: 50%;
+    border: 2px #b21818 solid;
+
+}
+
+
+#fajitadesc {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+#fajitacontain {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin: 50px;
+    margin-left: 190px;
+    float: left;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+}
+
+
+#fajita {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+
+}
+
+#enchidesc {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+#enchicontain {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    float: left;
+    margin: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+}
+
+#enchi {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+
+}
+
+#kormadesc {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+#kormacontain {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    float: left;
+    margin: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+
+#korma {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+
+}
+
+#chillidesc {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+#chillicontain {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin: 50px;
+    float: left;
+    margin-left: 190px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+#concarne {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+
+}
+
+#steakdesc {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    text-align: center;
+}
+
+#steakcontain {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin: 50px;
+    float: left;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+}
+
+#steak {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+
+}
+
+#mongoliandesc {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+#monbeefcontain {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin: 50px;
+    float: left;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+#monbeef {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+
+}
+
+#salmondesc {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+#salmoncontain {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin: 50px;
+    float: left;
+    margin-left: 190px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+#salmon {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+
+}
+
+#bassdesc {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+#seabasscontain {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin: 50px;
+    float: left;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+
+#seabass {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+
+}
+
+#burgerdesc {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+#burgercontain {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin: 50px;
+    float: left;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+#burger {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+
+}
+/* Footer */
+
+.footer {
+    margin-top: 200px;
+    height: 100px;
+    background-color: white;
+    width: 100%;
+    float: left;
+
+}
+
+/* Social media buttons Footer */
+
+.social {
+    float: right;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+
+}
