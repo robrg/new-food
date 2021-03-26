@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+            <meta charset = "utf-8">
+            <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+            <meta name = "description" content = "Robby's Favourite Meals">
+                <link rel = "stylesheet" type = "text/css" href = "allcss/teriyaki.css" media = "screen" />
+                <link rel = "preconnect" href = "https://fonts.gstatic.com">
+                <link href = "https://fonts.googleapis.com/css2?family=Spectral+SC:wght@200&display=swap" rel = "stylesheet">
+                <link rel = "preconnect" href = "https://fonts.gstatic.com">
+                <link rel = "preconnect" href = "https://fonts.gstatic.com">
+                <link href = "https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel = "stylesheet">
+                <link rel = "icon" href = "images/logo.jpg">
+
+            <title>Robby's Health and Fitness</title>
+
+</head>
+
+<body>
+
+<!--Logo and Header Box-->
+
+<div class = "box1">
+    <a href = "index.html">
+        <img src = "images/drawing.svg" class = "logo">
+    </a>
+
+    <h1 class = "tagline">Robs Health and Fitness Website</h1>
+</div>
+    <br>
+
+<!--Top menu-->
+
+<div class = "navwrapper">
+
+    <div class = "navbar">
+        <ul class = "navlist">
+            <li><a href = "index.html">Home</a></li>
+            <li>
+                <ul class = "submenu" onload="hideSubMenu(this)" onmouseleave="hideSubMenu(this)">
+                    <li onmouseover = "showSubMenu(this)"><a href = "recipes.html">Recipes</a></li>
+                    <li class = "subMenuItem"><a href = "#">Beef Recipes</a></li>
+                    <li class = "subMenuItem"><a href = "#">Chicken Recipes</a></li>
+                    <li class = "subMenuItem"><a href = "#">Fish Recipes</a></li>
+                </ul>
+            </li>
+            <li><a href = "workouts.html">Workouts</a></li>
+            <li><a href = "#">Workout Planner</a></li>
+            <li><a href = "#">Contact Me</a></li>
+        </ul>
+    </div>
+
+    <div class = "login">
+        <ul>
+            <li><a href="#">Login</a></li>
+
+            <li><a href = "register.html">Register</a></li>
+        </ul>
+    </div>
+
+    <div class = "searchbar">
+        <img src = "images/searchbaricon.jpg" class = "searchbaricon">
+            <input type = "text" placeholder = "Looking for something specific?">
+    </div>
+
+</div>
+
+<div class = "wrapper">
+
+    <div id = "subwrapbox">
+
+        <h1 id = "salmonheader">Teriyaki Salmon</h1>
+
+        <div id = "vidcontainer">
+            <iframe width = "600" height = "300" src = "https://www.youtube.com/embed/AQkL9X6LEHY" allow = "accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id = "salmonvid">
+            </iframe>
+        </div>
+
+        <div class = "macrocontain">
+            <h2 class = "macrohead">Macro's</h2>
+                <ul class = "macrosinfo">
+                    <li>Kcal: 507</li>
+                    <li>Protein: 40g</li>
+                    <li>Fat: 21g</li>
+                    <li>Saturated Fats: 4g</li>
+                    <li>Carbs: 53g</li>
+                    <li>Sugar: 18g</li>
+                    <li>Fibre: 6g</li>
+                    <li>Salt 2.2g</li>
+                </ul>
+        </div>
+
+        <div class = "infocontainer">
+            <h4 class = "cookinginfohead">Cooking Info:</h4>
+                <ul class = "cookinginfo">
+                    <li>Preperation Time: 20 Minutes</li>
+                    <li>Cooking Time: 40 Minutes</li>
+                    <li>Serves: 1 </li>
+                    <li>Very Easy to Cook</li>
+                </ul>
+        </div>
+
+        <div class = "ingredientscontain">
+            <h3 class = "ingredientshead">Ingredients</h3>
+                <ul class = "ingredientsinfo">
+                    <li>1 Tbsp of Teriyaki sauce</li>
+                    <li>1 Tbsp of Sweet Chilli Sauce</li>
+                    <li>1 Salmon Fillet</li>
+                    <li>Mashed Potatoe</li>
+                    <li>1 Head Pak choi</li>
+                    <li>1 Tsp of Sesame seeds</li>
+                    <li>1 Spring Onions, finely chopped</li>
+                    <li>Small bunch of Coriander, chopped</li>
+                    <li>Squeeze of Lime</li>
+                    <li>100g's of Broccoli</li>
+                    <li>Sesame Seeds</li>
+                    <li>Chopped Chives</li>
+                    <li>Cheese</li>
+                    <li>50g's of Butter</li>
+                </ul>
+        </div>
+
+        <div class = "descriptioncontain">
+            <p class = "descrip">Fish is another great source of Protein and packed with many other macro nutrients, always do your research into where you are getting your fish and where it is sourced from. You could also serve this with Cous Cous or Rice.</p>
+        </div>
+
+        <div class = "shareratecontain">
+            <p class = "reciby">Recipe by Me!</p>
+
+            <p id = "terishareto">Share this Recipe too:</p>
+
+
+        <div class = "terisharebtns">
+
+            <a href = "https://www.facebook.com">
+                <img src = "images/facebookshare.png" class = "terisharebtns">
+            </a>
+
+            <a href = "https://www.twitter.co.uk">
+                <img src = "images/twittershare.png" class = "terisharebtns">
+            </a>
+
+            <a href = "#">
+                <img src = "images/pinterestshare.jpg" class = "terisharebtns">
+            </a>
+
+            <a href = "https://www.instagram.com">
+                <img src = "images/instashare.png" class = "terisharebtns">
+            </a>
+        </div>
+
+            <p class = "raterecipehead">Rate this Recipe:</p>
+                <img src = "images/reviewstars.png" class = "reviewstars">
+        </div>
+
+        <div id = "stepscontainer">
+            <h4 id = "step1head">Step 1:</h4>
+                <p id = "step1desc">Start by Glazing the Salmon with the Teriyaki Sauce, again if you have time let the meet marinate over night as this will add so much more flavour and make the meat more tender. Season with Salt and Pepper and Place on a baking tray with some greasproof paper. You could alternatively wrap the Salmon in Foil and cook it this way.</p>
+            <h5 id = "step2head">Step 2:</h5>
+                <p id = "step2desc">Next start by cutting your potatoes into even slices/chunks and boil them off until cooked. Also start cooking the Broccoli whilst the Potatoes are boiling. Drain the water and whilst still hot add Butter, chopped Chives, Cheese and some Milk to the Potatoes and get mashing, season with Salt and Pepper for a creamy mashed potato!</p>
+            <h6 id = "step3head">Step 3:</h6>
+                <p id = "step3desc">Once the Broccoli and mashed Potato are done cook the salmon for around 20 minutes, i like to add an extra glaze of Teriyaki Sauce when its cooked and then add the Sesame seeds on top.</p>
+        </div>
+
+
+
+
+
+
+
+
+
+    </div>
+    </div>
+
+    <!--Footer-->
+
+<div class = "footer">
+
+
+
+<!-- Social media buttons links -->
+
+        <a href = "https://www.facebook.com">
+            <img class = "social" src = "images/facebook-logo.png" id = "facebook-logo" target = "_blank">
+        </a>
+
+        <a href = "https://www.twitter.co.uk">
+            <img class = "social" src = "images/twitter-logo.png" id = "twitter-logo" target = "_blank">
+        </a>
+
+        <a href = "https://www.instagram.com">
+            <img class = "social" src = "images/instagram-logo.png" id = "instagram-logo" target = "_blank">
+        </a>
+
+        <a href = "https://www.snapchat.com">
+            <img class = "social" src = "images/snapchat-logo.png" id = "snapchat-logo" target = "_blank">
+        </a>
+    </div>
+
+
+</body>
+
+</html>
+
+<script>
+
+    function showSubMenu(menuItem){
+        var items = menuItem.parentNode.getElementsByClassName("subMenuItem");
+        for (i = 0; i < items.length; i++) {
+            items[i].style.display = "inline";
+        }
+    }
+
+    function hideSubMenu(menu){
+        var items = menu.getElementsByClassName("subMenuItem");
+        for (i = 0; i < items.length; i++) {
+            items[i].style.display = "none";
+        }
+    }
+</script>

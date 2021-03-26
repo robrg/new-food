@@ -179,7 +179,7 @@ body{
 
 }
 
-#kormaheader {
+#enchiheader {
     font-family: 'Bebas Neue', cursive;
     color: black;
     font-size: 60px;
@@ -196,7 +196,7 @@ body{
 
 }
 
-#kormavid {
+#enchivid {
     margin-left: 50px;
     float: left;
     height: 300px;
@@ -443,12 +443,32 @@ body{
     float: left;
     font-size: 15px;
     margin-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
 
 
 }
 
+#step4head {
+    font-family: 'Bebas Neue', cursive;
+    float: left;
+    margin-left: 40px;
+    margin-bottom: 0px;
+    margin-top: 50px;
+    margin-right: 10px;
+    color: #b21818;
+    font-size: 30px;
 
+}
+
+#step4desc {
+     font-family: 'Spectral SC', serif;
+    float: left;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+
+}
 
 /* Footer */
 

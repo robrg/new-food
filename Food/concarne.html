@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+            <meta charset = "utf-8">
+            <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+            <meta name = "description" content = "Robby's Favourite Meals">
+                <link rel = "stylesheet" type = "text/css" href = "allcss/concarne.css" media = "screen" />
+                <link rel = "preconnect" href = "https://fonts.gstatic.com">
+                <link href = "https://fonts.googleapis.com/css2?family=Spectral+SC:wght@200&display=swap" rel = "stylesheet">
+                <link rel = "preconnect" href = "https://fonts.gstatic.com">
+                <link rel = "preconnect" href = "https://fonts.gstatic.com">
+                <link href = "https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel = "stylesheet">
+                <link rel = "icon" href = "images/logo.jpg">
+
+            <title>Robby's Health and Fitness</title>
+
+</head>
+
+<body>
+
+<!--Logo and Header Box-->
+
+<div class = "box1">
+    <a href = "index.html">
+        <img src = "images/drawing.svg" class = "logo">
+    </a>
+
+    <h1 class = "tagline">Robs Health and Fitness Website</h1>
+</div>
+    <br>
+
+<!--Top menu-->
+
+<div class = "navwrapper">
+
+    <div class = "navbar">
+        <ul class = "navlist">
+            <li><a href = "index.html">Home</a></li>
+            <li>
+                <ul class = "submenu" onload="hideSubMenu(this)" onmouseleave="hideSubMenu(this)">
+                    <li onmouseover = "showSubMenu(this)"><a href = "recipes.html">Recipes</a></li>
+                    <li class = "subMenuItem"><a href = "#">Beef Recipes</a></li>
+                    <li class = "subMenuItem"><a href = "#">Chicken Recipes</a></li>
+                    <li class = "subMenuItem"><a href = "#">Fish Recipes</a></li>
+                </ul>
+            </li>
+            <li><a href = "workouts.html">Workouts</a></li>
+            <li><a href = "#">Workout Planner</a></li>
+            <li><a href = "#">Contact Me</a></li>
+        </ul>
+    </div>
+
+    <div class = "login">
+        <ul>
+            <li><a href="#">Login</a></li>
+
+            <li><a href = "register.html">Register</a></li>
+        </ul>
+    </div>
+
+    <div class = "searchbar">
+        <img src = "images/searchbaricon.jpg" class = "searchbaricon">
+            <input type = "text" placeholder = "Looking for something specific?">
+    </div>
+
+</div>
+
+<div class = "wrapper">
+
+    <div id = "subwrapbox">
+
+        <h1 id = "carneheader">Chilli Con Carne with Basmati Rice</h1>
+
+        <div id = "vidcontainer">
+            <iframe src = "https://www.youtube.com/embed/NGaNOejQNv4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id = "carnevid">
+            </iframe>
+        </div>
+
+        <div class = "macrocontain">
+            <h2 class = "macrohead">Macro's</h2>
+                <ul class = "macrosinfo">
+                    <li>Kcal: 507</li>
+                    <li>Protein: 40g</li>
+                    <li>Fat: 21g</li>
+                    <li>Saturated Fats: 4g</li>
+                    <li>Carbs: 53g</li>
+                    <li>Sugar: 18g</li>
+                    <li>Fibre: 6g</li>
+                    <li>Salt 2.2g</li>
+                </ul>
+        </div>
+
+        <div class = "infocontainer">
+            <h4 class = "cookinginfohead">Cooking Info:</h4>
+                <ul class = "cookinginfo">
+                    <li>Preperation Time: 20 Minutes</li>
+                    <li>Cooking Time: 1 Hour</li>
+                    <li>Serves: 2 </li>
+                    <li>Very Easy to Cook</li>
+                </ul>
+        </div>
+
+        <div class = "ingredientscontain">
+            <h3 class = "ingredientshead">Ingredients</h3>
+                <ul class = "ingredientsinfo">
+                    <li>600g's of 5/12% Mince Meat</li>
+                    <li>Can of Red Kidney Beans (500g)</li>
+                    <li>2 Tablespoon's of Smoked Paprika</li>
+                    <li>2 Tablespoon's of Cumin</li>
+                    <li>200g's of Basmati Rice</li>
+                    <li>3 Garlic Cloves</li>
+                    <li>Olive Oil</li>
+                    <li>20g's of Sugar</li>
+                    <li>Red, Green and Yellow Peppers/li>
+                    <li>Red Onion</li>
+                    <li>Srirachi Sauce</li>
+                    <li>2 Red Chillies Chopped</li>
+                    <li>Ground Coriander</li>
+                    <li>A dash of Sriracha</li>
+                    <li>A can of Red Tomatoes (400g)</li>
+                    <li>500ml of Stock or<br>A stock cube and 500ml's of Water</li>
+                </ul>
+        </div>
+
+        <div class = "descriptioncontain">
+            <p class = "descrip">This is another classic Mexican Recipe that is a tasty and yet another easy meal to make, its a great recipe for hitting those macros and eating something clean and healthy at the same time. This can also be easily frozen so make a bigger batch by all means, just double up on the ingredients listed.</p>
+        </div>
+
+        <div class = "shareratecontain">
+            <p class = "reciby">Recipe by Me!</p>
+
+            <p id = "terishareto">Share this Recipe too:</p>
+
+
+        <div class = "terisharebtns">
+
+            <a href = "https://www.facebook.com">
+                <img src = "images/facebookshare.png" class = "terisharebtns">
+            </a>
+
+            <a href = "https://www.twitter.co.uk">
+                <img src = "images/twittershare.png" class = "terisharebtns">
+            </a>
+
+            <a href = "#">
+                <img src = "images/pinterestshare.jpg" class = "terisharebtns">
+            </a>
+
+            <a href = "https://www.instagram.com">
+                <img src = "images/instashare.png" class = "terisharebtns">
+            </a>
+        </div>
+
+            <p class = "raterecipehead">Rate this Recipe:</p>
+                <img src = "images/reviewstars.png" class = "reviewstars">
+        </div>
+
+        <div id = "stepscontainer">
+            <h4 id = "step1head">Step 1:</h4>
+                <p id = "step1desc">Start by chopping your Peppers, Red Onion, Garlic, and Chillies, i like to fry my Peppers first in which i will add Olive Oil, Salt, Pepper and Sugar to caramalise the Peppers and Onion and give them a nice sweet taste.</p>
+            <h5 id = "step2head">Step 2:</h5>
+                <p id = "step2desc">Next grab your mince and cook it off with Olive Oil, Salt and Pepper and Garlic, try not to overcook it because it will be left to simmer in the sauce aswell. Whilst the Meat is cooking occasionally stir to stop it burning start cooking your rice.</p>
+            <h6 id = "step3head">Step 3:</h6>
+                <p id = "step3desc">Once the Mince is cooked add your Can of Tomatoes, Red Kidney Beans, Water and Stock Cube or Stock. Add your cooked Veggies and Salt and Pepper, you can also add dark Chocolate here aswell as this help add some Rich/Sweetness to your Con Carne. Give it a good Stir and let it simmer on a low heat with the pan covered. Once cooked serve with basmati rice, i like to serve mine with some Broccoli aswell.</p>
+        </div>
+
+
+
+
+
+
+
+
+
+    </div>
+    </div>
+
+    <!--Footer-->
+
+<div class = "footer">
+
+
+
+<!-- Social media buttons links -->
+
+        <a href = "https://www.facebook.com">
+            <img class = "social" src = "images/facebook-logo.png" id = "facebook-logo" target = "_blank">
+        </a>
+
+        <a href = "https://www.twitter.co.uk">
+            <img class = "social" src = "images/twitter-logo.png" id = "twitter-logo" target = "_blank">
+        </a>
+
+        <a href = "https://www.instagram.com">
+            <img class = "social" src = "images/instagram-logo.png" id = "instagram-logo" target = "_blank">
+        </a>
+
+        <a href = "https://www.snapchat.com">
+            <img class = "social" src = "images/snapchat-logo.png" id = "snapchat-logo" target = "_blank">
+        </a>
+    </div>
+
+
+</body>
+
+</html>
+
+<script>
+
+    function showSubMenu(menuItem){
+        var items = menuItem.parentNode.getElementsByClassName("subMenuItem");
+        for (i = 0; i < items.length; i++) {
+            items[i].style.display = "inline";
+        }
+    }
+
+    function hideSubMenu(menu){
+        var items = menu.getElementsByClassName("subMenuItem");
+        for (i = 0; i < items.length; i++) {
+            items[i].style.display = "none";
+        }
+    }
+</script>

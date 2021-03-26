@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+            <meta charset = "utf-8">
+            <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+            <meta name = "description" content = "Robby's Favourite Meals">
+                <link rel = "stylesheet" type = "text/css" href = "allcss/mongolianbeef.css" media = "screen" />
+                <link rel = "preconnect" href = "https://fonts.gstatic.com">
+                <link href = "https://fonts.googleapis.com/css2?family=Spectral+SC:wght@200&display=swap" rel = "stylesheet">
+                <link rel = "preconnect" href = "https://fonts.gstatic.com">
+                <link rel = "preconnect" href = "https://fonts.gstatic.com">
+                <link href = "https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel = "stylesheet">
+                <link rel = "icon" href = "images/logo.jpg">
+
+            <title>Robby's Health and Fitness</title>
+
+</head>
+
+<body>
+
+<!--Logo and Header Box-->
+
+<div class = "box1">
+    <a href = "index.html">
+        <img src = "images/drawing.svg" class = "logo">
+    </a>
+        <h1 class = "tagline">Robs Health and Fitness Website</h1>
+</div>
+    <br>
+
+<!--Top menu-->
+
+<div class = "navwrapper">
+
+    <div class = "navbar">
+        <ul class = "navlist">
+            <li><a href = "index.html">Home</a></li>
+            <li>
+                <ul class = "submenu" onload="hideSubMenu(this)" onmouseleave="hideSubMenu(this)">
+                    <li onmouseover = "showSubMenu(this)"><a href = "recipes.html">Recipes</a></li>
+                    <li class = "subMenuItem"><a href = "#">Beef Recipes</a></li>
+                    <li class = "subMenuItem"><a href = "#">Chicken Recipes</a></li>
+                    <li class = "subMenuItem"><a href = "#">Fish Recipes</a></li>
+                </ul>
+            </li>
+            <li><a href = "workouts.html">Workouts</a></li>
+            <li><a href = "#">Workout Planner</a></li>
+            <li><a href = "#">Contact Me</a></li>
+        </ul>
+    </div>
+
+    <div class = "login">
+        <ul>
+            <li><a href="#">Login</a></li>
+
+            <li><a href = "register.html">Register</a></li>
+        </ul>
+    </div>
+
+    <div class = "searchbar">
+        <img src = "images/searchbaricon.jpg" class = "searchbaricon">
+            <input type = "text" placeholder = "Looking for something specific?">
+    </div>
+
+</div>
+
+<div class = "wrapper">
+
+    <div id = "subwrapbox">
+
+        <h1 id = "beefheader">Mongolian Beef with Rice and Green Beans</h1>
+
+        <div id = "vidcontainer">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/6_vXczuMZ5k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id = "beefvid">
+            </iframe>
+        </div>
+
+        <div class = "macrocontain">
+            <h2 class = "macrohead">Macro's</h2>
+                <ul class = "macrosinfo">
+                    <li>Kcal: 507</li>
+                    <li>Protein: 40g</li>
+                    <li>Fat: 21g</li>
+                    <li>Saturated Fats: 4g</li>
+                    <li>Carbs: 53g</li>
+                    <li>Sugar: 18g</li>
+                    <li>Fibre: 6g</li>
+                    <li>Salt 2.2g</li>
+                </ul>
+        </div>
+
+        <div class = "infocontainer">
+            <h4 class = "cookinginfohead">Cooking Info:</h4>
+                <ul class = "cookinginfo">
+                    <li>Preperation Time: 20 Minutes</li>
+                    <li>Cooking Time: 3 Hours</li>
+                    <li>Serves: 2 </li>
+                    <li>Very Easy to Cook</li>
+                </ul>
+        </div>
+
+        <div class = "ingredientscontain">
+            <h3 class = "ingredientshead">Ingredients</h3>
+                <ul class = "ingredientsinfo">
+                    <li>500g's Beef strips</li>
+                    <li>2 tsp's of Cornflour</li>
+                    <li>100g's of Green Beans</li>
+                    <li>100g's of Basmati Rice</li>
+                    <li>3 Garlic Cloves</li>
+                    <li>Ginger paste or Root Ginger</li>
+                    <li>50g's of Sugar</li>
+                    <li>Spring Onions</li>
+                    <li>200ml of water</li>
+                    <li>80 ml of Soy Sauce</li>
+                    <li>2 Red Chillies Chopped</li>
+                    <li>Bunch of Corriander</li>
+                    <li>A dash of Sriracha</li>
+                </ul>
+        </div>
+
+        <div class = "descriptioncontain">
+            <p class = "descrip">This is a great Chinese recipe that tastes amazing! and its so easy to cook, just chuck it all in one pan and come back 3 hours later its really that easy!</p>
+        </div>
+
+        <div class = "shareratecontain">
+            <p class = "reciby">Recipe by Me!</p>
+
+            <p id = "terishareto">Share this Recipe too:</p>
+
+
+        <div class = "terisharebtns">
+
+            <a href = "https://www.facebook.com">
+                <img src = "images/facebookshare.png" class = "terisharebtns">
+            </a>
+
+            <a href = "https://www.twitter.co.uk">
+                <img src = "images/twittershare.png" class = "terisharebtns">
+            </a>
+
+            <a href = "#">
+                <img src = "images/pinterestshare.jpg" class = "terisharebtns">
+            </a>
+
+            <a href = "https://www.instagram.com">
+                <img src = "images/instashare.png" class = "terisharebtns">
+            </a>
+        </div>
+
+            <p class = "raterecipehead">Rate this Recipe:</p>
+                <img src = "images/reviewstars.png" class = "reviewstars">
+        </div>
+
+        <div id = "stepscontainer">
+            <h4 id = "step1head">Step 1:</h4>
+                <p id = "step1desc">Start off by finely chopping your Garlic, Chillies, Ginger and Coriander but leave the Coriander to one side and add just before serving.</p>
+            <h5 id = "step2head">Step 2:</h5>
+                <p id = "step2desc">Next grab all your beef and put in a mixing bowl and season with some Olive Oil, Salt and Pepper. If you have time you could put all your other ingredients in and let the meat marinate in the fridge for a couple of hours.</p>
+            <h6 id = "step3head">Step 3:</h6>
+                <p id = "step3desc">Add all of your spices to a big pan that is oven proof and then add the water, place the meat in there aswell and cover it with some foil and let it cook for 3 hours. Serve with the Rice and Beans and sprinkle the Coriander onto the beef.</p>
+        </div>
+
+
+
+
+
+
+
+
+
+    </div>
+    </div>
+
+    <!--Footer-->
+
+<div class = "footer">
+
+
+
+<!-- Social media buttons links -->
+
+        <a href = "https://www.facebook.com">
+            <img class = "social" src = "images/facebook-logo.png" id = "facebook-logo" target = "_blank">
+        </a>
+
+        <a href = "https://www.twitter.co.uk">
+            <img class = "social" src = "images/twitter-logo.png" id = "twitter-logo" target = "_blank">
+        </a>
+
+        <a href = "https://www.instagram.com">
+            <img class = "social" src = "images/instagram-logo.png" id = "instagram-logo" target = "_blank">
+        </a>
+
+        <a href = "https://www.snapchat.com">
+            <img class = "social" src = "images/snapchat-logo.png" id = "snapchat-logo" target = "_blank">
+        </a>
+    </div>
+
+
+</body>
+
+</html>
+
+<script>
+
+    function showSubMenu(menuItem){
+        var items = menuItem.parentNode.getElementsByClassName("subMenuItem");
+        for (i = 0; i < items.length; i++) {
+            items[i].style.display = "inline";
+        }
+    }
+
+    function hideSubMenu(menu){
+        var items = menu.getElementsByClassName("subMenuItem");
+        for (i = 0; i < items.length; i++) {
+            items[i].style.display = "none";
+        }
+    }
+</script>

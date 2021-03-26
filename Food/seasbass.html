@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+            <meta charset = "utf-8">
+            <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+            <meta name = "description" content = "Robby's Favourite Meals">
+                <link rel = "stylesheet" type = "text/css" href = "allcss/seasbass.css" media = "screen" />
+                <link rel = "preconnect" href = "https://fonts.gstatic.com">
+                <link href = "https://fonts.googleapis.com/css2?family=Spectral+SC:wght@200&display=swap" rel = "stylesheet">
+                <link rel = "preconnect" href = "https://fonts.gstatic.com">
+                <link rel = "preconnect" href = "https://fonts.gstatic.com">
+                <link href = "https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel = "stylesheet">
+                <link rel = "icon" href = "images/logo.jpg">
+
+            <title>Robby's Health and Fitness</title>
+
+</head>
+
+<body>
+
+<!--Logo and Header Box-->
+
+<div class = "box1">
+    <a href = "index.html">
+        <img src = "images/drawing.svg" class = "logo">
+    </a>
+        <h1 class = "tagline">Robs Health and Fitness Website</h1>
+</div>
+    <br>
+
+<!--Top menu-->
+
+<div class = "navwrapper">
+
+    <div class = "navbar">
+        <ul class = "navlist">
+            <li><a href = "index.html">Home</a></li>
+            <li>
+                <ul class = "submenu" onload="hideSubMenu(this)" onmouseleave="hideSubMenu(this)">
+                    <li onmouseover = "showSubMenu(this)"><a href = "recipes.html">Recipes</a></li>
+                    <li class = "subMenuItem"><a href = "#">Beef Recipes</a></li>
+                    <li class = "subMenuItem"><a href = "#">Chicken Recipes</a></li>
+                    <li class = "subMenuItem"><a href = "#">Fish Recipes</a></li>
+                </ul>
+            </li>
+            <li><a href = "workouts.html">Workouts</a></li>
+            <li><a href = "#">Workout Planner</a></li>
+            <li><a href = "#">Contact Me</a></li>
+        </ul>
+    </div>
+
+    <div class = "login">
+        <ul>
+            <li><a href="#">Login</a></li>
+
+            <li><a href = "register.html">Register</a></li>
+        </ul>
+    </div>
+
+    <div class = "searchbar">
+        <img src = "images/searchbaricon.jpg" class = "searchbaricon">
+            <input type = "text" placeholder = "Looking for something specific?">
+    </div>
+
+</div>
+
+<div class = "wrapper">
+
+    <div id = "subwrapbox">
+
+        <h1 id = "bassheader">Sea Bass Fillets with Chips and Broccoli</h1>
+
+        <div id = "vidcontainer">
+            <iframe src = "https://www.youtube.com/embed/CWTArHs1RCI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id = "bassvid">
+            </iframe>
+        </div>
+
+        <div class = "macrocontain">
+            <h2 class = "macrohead">Macro's</h2>
+                <ul class = "macrosinfo">
+                    <li>Kcal: 302</li>
+                    <li>Protein: 40g</li>
+                    <li>Fat: 21g</li>
+                    <li>Saturated Fats: 4g</li>
+                    <li>Carbs: 53g</li>
+                    <li>Sugar: 18g</li>
+                    <li>Fibre: 6g</li>
+                    <li>Salt 2.2g</li>
+                </ul>
+        </div>
+
+        <div class = "infocontainer">
+            <h4 class = "cookinginfohead">Cooking Info:</h4>
+                <ul class = "cookinginfo">
+                    <li>Preperation Time: 20 Minutes</li>
+                    <li>Cooking Time: 40 Minutes</li>
+                    <li>Serves: 1 </li>
+                    <li>Very Easy to Cook</li>
+                </ul>
+        </div>
+
+        <div class = "ingredientscontain">
+            <h3 class = "ingredientshead">Ingredients</h3>
+                <ul class = "ingredientsinfo">
+                    <li>2 Fillets of Sea bass</li>
+                    <li>100g of chunky chips</li>
+                    <li>100/150g of broccoli</li>
+                    <li>Lemon</li>
+                    <li>Butter</li>
+                    <li>Buttermilk</li>
+                    <li>Flour</li>
+                </ul>
+        </div>
+
+        <div class = "descriptioncontain">
+            <p class = "descrip">This is another easy dish to make that so Healthy for you, Fish is one of the best sources of protein and it will help you keep a nice lean figure without sacrificing taste!</p>
+        </div>
+
+        <div class = "shareratecontain">
+            <p class = "reciby">Recipe by Me!</p>
+
+            <p id = "terishareto">Share this Recipe too:</p>
+
+
+        <div class = "terisharebtns">
+
+            <a href = "https://www.facebook.com">
+                <img src = "images/facebookshare.png" class = "terisharebtns">
+            </a>
+
+            <a href = "https://www.twitter.co.uk">
+                <img src = "images/twittershare.png" class = "terisharebtns">
+            </a>
+
+            <a href = "#">
+                <img src = "images/pinterestshare.jpg" class = "terisharebtns">
+            </a>
+
+            <a href = "https://www.instagram.com">
+                <img src = "images/instashare.png" class = "terisharebtns">
+            </a>
+        </div>
+
+            <p class = "raterecipehead">Rate this Recipe:</p>
+                <img src = "images/reviewstars.png" class = "reviewstars">
+        </div>
+
+        <div id = "stepscontainer">
+            <h4 id = "step1head">Step 1:</h4>
+                <p id = "step1desc">First Start off by Marinating your Sea Bass, Place it in a bowl with some Olive Oil, Salt and Pepper and a squeeze of Lemon, make sure both sides are coated with seasoning. Then Place flour in one bowl and Buttermilk in the other. Dip a Fillet in the Buttermilk then into the flour, do the same for the other side and once you have done by of them leave them to one side.</p>
+            <h5 id = "step2head">Step 2:</h5>
+                <p id = "step2desc">Next grab your desired amounts of chips and let them cook whilst cooking the broccoli for roughly 10 minutes.</p>
+            <h6 id = "step3head">Step 3:</h6>
+                <p id = "step3desc">Heat the pan and grab your Sea bass, add a little Olive Oil to the pan and gently place them in the pan facing away from you and then season them again with Salt, Pepper, and Lemon. Cook both sides for around 4-5 minutes or until the skin on the bottom is nice and crispy. Once they are done thats it, serve with your chips and broccoli. You could also serve this with a side Salad.</p>
+        </div>
+
+        </div>
+    </div>
+
+    <!--Footer-->
+
+<div class = "footer">
+
+
+
+<!-- Social media buttons links -->
+
+        <a href = "https://www.facebook.com">
+            <img class = "social" src = "images/facebook-logo.png" id = "facebook-logo" target = "_blank">
+        </a>
+
+        <a href = "https://www.twitter.co.uk">
+            <img class = "social" src = "images/twitter-logo.png" id = "twitter-logo" target = "_blank">
+        </a>
+
+        <a href = "https://www.instagram.com">
+            <img class = "social" src = "images/instagram-logo.png" id = "instagram-logo" target = "_blank">
+        </a>
+
+        <a href = "https://www.snapchat.com">
+            <img class = "social" src = "images/snapchat-logo.png" id = "snapchat-logo" target = "_blank">
+        </a>
+    </div>
+
+
+</body>
+
+</html>
+
+<script>
+
+    function showSubMenu(menuItem){
+        var items = menuItem.parentNode.getElementsByClassName("subMenuItem");
+        for (i = 0; i < items.length; i++) {
+            items[i].style.display = "inline";
+        }
+    }
+
+    function hideSubMenu(menu){
+        var items = menu.getElementsByClassName("subMenuItem");
+        for (i = 0; i < items.length; i++) {
+            items[i].style.display = "none";
+        }
+    }
+</script>

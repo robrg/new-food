@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+            <meta charset = "utf-8">
+            <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+            <meta name = "description" content = "Robby's Favourite Meals">
+                <link rel = "stylesheet" type = "text/css" href = "allcss/fajitas.css" media = "screen" />
+                <link rel = "preconnect" href = "https://fonts.gstatic.com">
+                <link href = "https://fonts.googleapis.com/css2?family=Spectral+SC:wght@200&display=swap" rel = "stylesheet">
+                <link rel = "preconnect" href = "https://fonts.gstatic.com">
+                <link rel = "preconnect" href = "https://fonts.gstatic.com">
+                <link href = "https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel = "stylesheet">
+                <link rel = "icon" href = "images/logo.jpg">
+
+            <title>Robby's Health and Fitness</title>
+
+</head>
+
+<body>
+
+<!--Logo and Header Box-->
+
+<div class = "box1">
+    <a href = "index.html">
+        <img src = "images/drawing.svg" class = "logo">
+    </a>
+        <h1 class = "tagline">Robs Health and Fitness Website</h1>
+</div>
+    <br>
+
+<!--Top menu-->
+
+<div class = "navwrapper">
+
+    <div class = "navbar">
+        <ul class = "navlist">
+            <li><a href = "index.html">Home</a></li>
+            <li>
+                <ul class = "submenu" onload="hideSubMenu(this)" onmouseleave="hideSubMenu(this)">
+                    <li onmouseover = "showSubMenu(this)"><a href = "recipes.html">Recipes</a></li>
+                    <li class = "subMenuItem"><a href = "#">Beef Recipes</a></li>
+                    <li class = "subMenuItem"><a href = "#">Chicken Recipes</a></li>
+                    <li class = "subMenuItem"><a href = "#">Fish Recipes</a></li>
+                </ul>
+            </li>
+            <li><a href = "workouts.html">Workouts</a></li>
+            <li><a href = "#">Workout Planner</a></li>
+            <li><a href = "#">Contact Me</a></li>
+        </ul>
+    </div>
+
+    <div class = "login">
+        <ul>
+            <li><a href="#">Login</a></li>
+
+            <li><a href = "register.html">Register</a></li>
+        </ul>
+    </div>
+
+    <div class = "searchbar">
+        <img src = "images/searchbaricon.jpg" class = "searchbaricon">
+            <input type = "text" placeholder = "Looking for something specific?">
+    </div>
+
+</div>
+
+<div class = "wrapper">
+
+    <div id = "subwrapbox">
+
+        <h1 id = "fajitaheader">Chicken Fajitas with Egg Fried Rice and Tortillas</h1>
+
+        <div id = "vidcontainer">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/JWaGMVhMqFI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id = "fajitavid">
+            </iframe>
+        </div>
+
+        <div class = "macrocontain">
+            <h2 class = "macrohead">Macro's</h2>
+                <ul class = "macrosinfo">
+                    <li>Kcal: 507</li>
+                    <li>Protein: 40g</li>
+                    <li>Fat: 21g</li>
+                    <li>Saturated Fats: 4g</li>
+                    <li>Carbs: 53g</li>
+                    <li>Sugar: 18g</li>
+                    <li>Fibre: 6g</li>
+                    <li>Salt 2.2g</li>
+                </ul>
+        </div>
+
+        <div class = "infocontainer">
+            <h4 class = "cookinginfohead">Cooking Info:</h4>
+                <ul class = "cookinginfo">
+                    <li>Preperation Time: 20 Minutes</li>
+                    <li>Cooking Time: 1 Hour</li>
+                    <li>Serves: 2 </li>
+                    <li>Very Easy to Cook</li>
+                </ul>
+        </div>
+
+        <div class = "ingredientscontain">
+            <h3 class = "ingredientshead">Ingredients</h3>
+                <ul class = "ingredientsinfo">
+                    <li>400g's of Chicken Breast</li>
+                    <li>2 Large Eggs</li>
+                    <li>1 Tablespoon of Smoked Paprika</li>
+                    <li>100g's of Basmati Rice</li>
+                    <li>3 Garlic Cloves</li>
+                    <li>Olive Oil</li>
+                    <li>20g's of Sugar</li>
+                    <li>Red, Green and Yellow Peppers/li>
+                    <li>Red Onion</li>
+                    <li>Srirachi Sauce</li>
+                    <li>2 Red Chillies Chopped</li>
+                    <li>Ground Corriander</li>
+                    <li>A dash of Sriracha</li>
+                    <li>Salsa/Sour Cream</li>
+                </ul>
+        </div>
+
+        <div class = "descriptioncontain">
+            <p class = "descrip">This is a classic Mexican Recipe i would be suprised if someone said they havent tried it before. It's really easy to make, its a great idea for a midweek meal.</p>
+        </div>
+
+        <div class = "shareratecontain">
+            <p class = "reciby">Recipe by Me!</p>
+
+            <p id = "terishareto">Share this Recipe too:</p>
+
+
+        <div class = "terisharebtns">
+
+            <a href = "https://www.facebook.com">
+                <img src = "images/facebookshare.png" class = "terisharebtns">
+            </a>
+
+            <a href = "https://www.twitter.co.uk">
+                <img src = "images/twittershare.png" class = "terisharebtns">
+            </a>
+
+            <a href = "#">
+                <img src = "images/pinterestshare.jpg" class = "terisharebtns">
+            </a>
+
+            <a href = "https://www.instagram.com">
+                <img src = "images/instashare.png" class = "terisharebtns">
+            </a>
+        </div>
+
+            <p class = "raterecipehead">Rate this Recipe:</p>
+                <img src = "images/reviewstars.png" class = "reviewstars">
+        </div>
+
+        <div id = "stepscontainer">
+            <h4 id = "step1head">Step 1:</h4>
+                <p id = "step1desc">If you have time let the Chicken Marinate with all the spices the night before or for a couple hours before cooking for the best results. If you forget then grab the Chicken Breasts cut them into even sized chunks and add them to a mixing bowl. Add some Olive Oil, chopped Garlic, Salt, Pepper, Chillies, and a sprinkle of Lime juice if you like it. Then finally add the ground Coriander, Smoked Paprika and Sriracha to the bowl and give it a good mix.</p>
+            <h5 id = "step2head">Step 2:</h5>
+                <p id = "step2desc">Next Chop all your Peppers and Onion and Fry that off, i like to add Sugar to caramalise the Veggies and some more Paprika. Whilst they are cooking you can start on the Rice, boil the rice until cooked and then add 2 eggs to the wok, season with Salt and Pepper and cook them until they are nearly cooked, then add the cooked rice and some soy sauce to the Wok, once the eggs are fully cooked you are done with the rice.</p>
+            <h6 id = "step3head">Step 3:</h6>
+                <p id = "step3desc">Make sure all the Chicken is thoroughly cooked all the way through and then serve with Tortillas, with Salsa and Sour Cream.</p>
+        </div>
+
+
+
+
+
+
+
+
+
+    </div>
+    </div>
+
+    <!--Footer-->
+
+<div class = "footer">
+
+
+
+<!-- Social media buttons links -->
+
+        <a href = "https://www.facebook.com">
+            <img class = "social" src = "images/facebook-logo.png" id = "facebook-logo" target = "_blank">
+        </a>
+
+        <a href = "https://www.twitter.co.uk">
+            <img class = "social" src = "images/twitter-logo.png" id = "twitter-logo" target = "_blank">
+        </a>
+
+        <a href = "https://www.instagram.com">
+            <img class = "social" src = "images/instagram-logo.png" id = "instagram-logo" target = "_blank">
+        </a>
+
+        <a href = "https://www.snapchat.com">
+            <img class = "social" src = "images/snapchat-logo.png" id = "snapchat-logo" target = "_blank">
+        </a>
+    </div>
+
+
+</body>
+
+</html>
+
+<script>
+
+    function showSubMenu(menuItem){
+        var items = menuItem.parentNode.getElementsByClassName("subMenuItem");
+        for (i = 0; i < items.length; i++) {
+            items[i].style.display = "inline";
+        }
+    }
+
+    function hideSubMenu(menu){
+        var items = menu.getElementsByClassName("subMenuItem");
+        for (i = 0; i < items.length; i++) {
+            items[i].style.display = "none";
+        }
+    }
+</script>

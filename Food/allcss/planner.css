@@ -174,140 +174,40 @@ body{
 }
 
 #subwrapbox {
-    height: 3200px;
+    height: 3000px;
     width: 100%;
 
 }
 
-#workoutcontain {
-    height: 500px;
-    width: auto;
-    overflow: hidden;
-
-}
-
-#workoutimg {
-    height: auto;
-    width: 100%;
-    opacity: 70%;
-
-}
-
-#workouthead {
+#exerciseplanhead {
     font-family: 'Bebas Neue', cursive;
-    font-size: 50px;
-    color: #b21818;
-    margin: 50px;
+    font-size: 60px;
     text-align: center;
-}
-
-#workoutinfocont {
-    height: auto;
-    width: 50%;
-    margin-top: 5%;
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-bottom: 5%;
-}
-
-#workoutinfo {
-    font-family: 'Spectral SC', serif;
-    font-size: 18px;
-    margin-top: 5%;
-    margin-bottom: 5%;
 
 }
 
-#subinfocont {
-    margin-bottom: 5%;
-    margin-top: 5%;
-    height: auto;
-    width: auto;
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
-
-}
-
-
-/*Day 1*/
-
-#day1head {
-    font-family: 'Bebas Neue', cursive;
-    font-size: 50px;
-    margin-left: 100px;
-    margin-right: 100px;
-    border-bottom: 1px solid black;
-    color: #b21818;
-
-}
-
-#day1table {
-    font-family: 'Bebas Neue', cursive;
-    font-size: 22px;
-    border: 5px solid black;
-    border-spacing: 5px;
-    margin-left: 25%;
-    margin-right: 25%;
-}
-
-th, td {
-    border: 1px solid black;
-    padding: 10px;
-
-}
-
-/*Day 2*/
-
-#day2head {
-    font-family: 'Bebas Neue', cursive;
-    font-size: 50px;
-    margin-left: 100px;
-    margin-right: 100px;
-    border-bottom: 1px solid black;
-    color: #b21818;
-
-}
-
-#day2table {
-    font-family: 'Bebas Neue', cursive;
-    font-size: 22px;
-    border: 5px solid black;
-    border-spacing: 5px;
-    margin-left: 25%;
-    margin-right: 25%;
-}
-
-/*Day 3*/
-
-#day3head {
-    font-family: 'Bebas Neue', cursive;
-    font-size: 50px;
-    margin-left: 100px;
-    margin-right: 100px;
-    border-bottom: 1px solid black;
-    color: #b21818;
-
-}
-
-#day3table {
-    font-family: 'Bebas Neue', cursive;
-    font-size: 22px;
-    border: 5px solid black;
-    border-spacing: 5px;
-    margin-left: 25%;
-    margin-right: 25%;
-}
-
-#lastdesc {
+#workoutplannerinfo {
     font-family: 'Spectral SC', serif;
     font-size: 18px;
     margin-left: 20%;
     margin-right: 20%;
-    margin-bottom: 50px;
-    margin-top: 50px;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+
 }
+
+
+#workoutbox {
+    height: auto;
+    width: 50%;
+    border: 2px solid black;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+
+
+}
+
+
+
 
 /* Footer */
 

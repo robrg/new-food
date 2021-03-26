@@ -127,7 +127,7 @@ a:active {
 }
 
 .searchbar input {
-    color: #b21818;
+    color: #4743;
     opacity: 0.5px;
     font-family: 'Spectral SC', serif;
     font-size: 20px;
@@ -160,7 +160,7 @@ a:active {
 /* Body */
 
 body{
-    background-color: #b21818;
+    background-color: #4743;
     margin: 0px;
 }
 

@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+            <meta charset = "utf-8">
+            <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+            <meta name = "description" content = "Robby's Favourite Meals">
+                <link rel = "stylesheet" type = "text/css" href = "allcss/chickenkorma.css" media = "screen" />
+                <link rel = "preconnect" href = "https://fonts.gstatic.com">
+                <link href = "https://fonts.googleapis.com/css2?family=Spectral+SC:wght@200&display=swap" rel = "stylesheet">
+                <link rel = "preconnect" href = "https://fonts.gstatic.com">
+                <link rel = "preconnect" href = "https://fonts.gstatic.com">
+                <link href = "https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel = "stylesheet">
+                <link rel = "icon" href = "images/logo.jpg">
+
+            <title>Robby's Health and Fitness</title>
+
+</head>
+
+<body>
+
+<!--Logo and Header Box-->
+
+<div class = "box1">
+    <a href = "index.html">
+        <img src = "images/drawing.svg" class = "logo">
+    </a>
+
+    <h1 class = "tagline">Robs Health and Fitness Website</h1>
+</div>
+    <br>
+
+<!--Top menu-->
+
+<div class = "navwrapper">
+
+    <div class = "navbar">
+        <ul class = "navlist">
+            <li><a href = "index.html">Home</a></li>
+            <li>
+                <ul class = "submenu" onload="hideSubMenu(this)" onmouseleave="hideSubMenu(this)">
+                    <li onmouseover = "showSubMenu(this)"><a href = "recipes.html">Recipes</a></li>
+                    <li class = "subMenuItem"><a href = "#">Beef Recipes</a></li>
+                    <li class = "subMenuItem"><a href = "#">Chicken Recipes</a></li>
+                    <li class = "subMenuItem"><a href = "#">Fish Recipes</a></li>
+                </ul>
+            </li>
+            <li><a href = "workouts.html">Workouts</a></li>
+            <li><a href = "#">Workout Planner</a></li>
+            <li><a href = "#">Contact Me</a></li>
+        </ul>
+    </div>
+
+    <div class = "login">
+        <ul>
+            <li><a href="#">Login</a></li>
+
+            <li><a href = "register.html">Register</a></li>
+        </ul>
+    </div>
+
+    <div class = "searchbar">
+        <img src = "images/searchbaricon.jpg" class = "searchbaricon">
+            <input type = "text" placeholder = "Looking for something specific?">
+    </div>
+
+</div>
+
+<div class = "wrapper">
+
+    <div id = "subwrapbox">
+
+        <h1 id = "kormaheader">Chicken Korma with Rice and Naan Bread</h1>
+
+        <div id = "vidcontainer">
+            <iframe src = "https://www.youtube.com/embed/7nG_EE6dffA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id = "kormavid">
+            </iframe>
+        </div>
+
+        <div class = "macrocontain">
+            <h2 class = "macrohead">Macro's</h2>
+                <ul class = "macrosinfo">
+                    <li>Kcal: 558</li>
+                    <li>Protein: 40g</li>
+                    <li>Fat: 21g</li>
+                    <li>Saturated Fats: 4g</li>
+                    <li>Carbs: 53g</li>
+                    <li>Sugar: 18g</li>
+                    <li>Fibre: 6g</li>
+                    <li>Salt 2.2g</li>
+                </ul>
+        </div>
+
+        <div class = "infocontainer">
+            <h4 class = "cookinginfohead">Cooking Info:</h4>
+                <ul class = "cookinginfo">
+                    <li>Preperation Time: 2 Hours</li>
+                    <li>Cooking Time: 40 Minutes</li>
+                    <li>Serves: 2 </li>
+                    <li>Fairly Easy to Cook</li>
+                </ul>
+        </div>
+
+        <div class = "ingredientscontain">
+            <h3 class = "ingredientshead">Ingredients</h3>
+                <ul class = "ingredientsinfo">
+                    <li>400g's of Chicken Breast</li>
+                    <li>200g's of Low-Fat Natural Yoghurt</li>
+                    <li>300g's of Basmati Rice</li>
+                    <li>200ml of Coconut Milk</li>
+                    <li>Dessicated Coconut</li>
+                    <li>2 Onions (i like to have 1 Red)</li>
+                    <li>Fresh root ginger or Ginger Paste</li>
+                    <li>12 cardamom pods, seeds crushed</li>
+                    <li>1 tbsp ground cumin</li>
+                    <li>1 tbsp ground coriander</li>
+                    <li>2 heaped tsp's of ground turmeric</li>
+                    <li>1 Tbsp hot chilli powder</li>
+                    <li>1 bay leaf</li>
+                    <li>4 Garlic cloves</li>
+                    <li>1 tbsp plain flour</li>
+                    <li>Small pinch of saffron</li>
+                    <li>300ml cold water</li>
+                    <li>3 tbsp of double cream</li>
+                    <li>fresh Coriander</li>
+                    <li>2 Naan Breads of choice</li>
+                </ul>
+        </div>
+
+        <div class = "descriptioncontain">
+            <p class = "descrip">Curry can be made Healthly but i wouldnt advice eating it every day, i like to make it with full fat and keep it as a treat occasionaly, but you can take out some of the ingredients i have listed to make a skinnier Korma, it will just mean the sauce might not be as creamy but it will still taste great.</p>
+        </div>
+
+        <div class = "shareratecontain">
+            <p class = "reciby">Recipe by Me!</p>
+
+            <p id = "terishareto">Share this Recipe too:</p>
+
+
+        <div class = "terisharebtns">
+
+            <a href = "https://www.facebook.com">
+                <img src = "images/facebookshare.png" class = "terisharebtns">
+            </a>
+
+            <a href = "https://www.twitter.co.uk">
+                <img src = "images/twittershare.png" class = "terisharebtns">
+            </a>
+
+            <a href = "#">
+                <img src = "images/pinterestshare.jpg" class = "terisharebtns">
+            </a>
+
+            <a href = "https://www.instagram.com">
+                <img src = "images/instashare.png" class = "terisharebtns">
+            </a>
+        </div>
+
+            <p class = "raterecipehead">Rate this Recipe:</p>
+                <img src = "images/reviewstars.png" class = "reviewstars">
+        </div>
+
+        <div id = "stepscontainer">
+            <h4 id = "step1head">Step 1:</h4>
+                <p id = "step1desc">As i always say if you have time marinate the chicken in the fridge the night before or for 3 hours prior to cooking to bring out those flavours even more. Start by chopping the Chicken into small even chunks, add 1 tsp of all of the spices listed and season with a touch of Olive Oil, Salt and Pepper, Give it a good mix and put it to one side.</p>
+            <h5 id = "step2head">Step 2:</h5>
+                <p id = "step2desc">Before we start making the korma sauce pop your rice on first and leave it to one side once its done. Then chop both of your onions and fry them with Olive Oil, Salt, Pepper and add some tumeric. I also like to add some sugar to the onions to caramalise them, slowly add the Water and keep stiring. Once the Onions are cooked add them to a blender and add some more spices and the dessicated Coconut and Milk and blend it throughly, you could also add ground almonds aswell. </p>
+            <h6 id = "step3head">Step 3:</h6>
+                <p id = "step3desc">When the sauce is done leave it to one side and start cooking off all the Chicken, try not to overcook this as we will let it simmer in the sauce. If you have a griddled pan use this to cook the Chicken and push the Chicken down in the pan to get the charring effect on the outside. Then when the Chicken is cooked add the sauce and some double Cream and let it simmer on a low temperature. Add the Coriander once its all cooked and serve with your Rice and Naan Bread.</p>
+        </div>
+
+
+
+
+
+
+
+
+
+    </div>
+    </div>
+
+    <!--Footer-->
+
+<div class = "footer">
+
+
+
+<!-- Social media buttons links -->
+
+        <a href = "https://www.facebook.com">
+            <img class = "social" src = "images/facebook-logo.png" id = "facebook-logo" target = "_blank">
+        </a>
+
+        <a href = "https://www.twitter.co.uk">
+            <img class = "social" src = "images/twitter-logo.png" id = "twitter-logo" target = "_blank">
+        </a>
+
+        <a href = "https://www.instagram.com">
+            <img class = "social" src = "images/instagram-logo.png" id = "instagram-logo" target = "_blank">
+        </a>
+
+        <a href = "https://www.snapchat.com">
+            <img class = "social" src = "images/snapchat-logo.png" id = "snapchat-logo" target = "_blank">
+        </a>
+    </div>
+
+
+</body>
+
+</html>
+
+<script>
+
+    function showSubMenu(menuItem){
+        var items = menuItem.parentNode.getElementsByClassName("subMenuItem");
+        for (i = 0; i < items.length; i++) {
+            items[i].style.display = "inline";
+        }
+    }
+
+    function hideSubMenu(menu){
+        var items = menu.getElementsByClassName("subMenuItem");
+        for (i = 0; i < items.length; i++) {
+            items[i].style.display = "none";
+        }
+    }
+</script>

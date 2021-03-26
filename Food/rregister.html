@@ -3,20 +3,18 @@
 <html>
 
 <head>
-        <meta charset = "utf-8">
-        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
-        <meta name = "description" content = "Health and Fitness Website">
-            <link rel = "stylesheet" type = "text/css" href = "allcss/register.css" media = "screen" />
-            <link rel = "preconnect" href = "https://fonts.gstatic.com">
-            <link href = "https://fonts.googleapis.com/css2?family=Spectral+SC:wght@200&display=swap"
-                  rel = "stylesheet">
-            <link rel = "preconnect" href = "https://fonts.gstatic.com">
-            <link rel = "preconnect" href = "https://fonts.gstatic.com">
-            <link href = "https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
-                  rel = "stylesheet">
-            <link rel = "icon" href = "/images/logo.jpg">
+            <meta charset = "utf-8">
+            <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+            <meta name = "description" content = "Robby's Favourite Meals">
+                <link rel = "stylesheet" type = "text/css" href = "allcss/rregister.css" media = "screen" />
+                <link rel = "preconnect" href = "https://fonts.gstatic.com">
+                <link href = "https://fonts.googleapis.com/css2?family=Spectral+SC:wght@200&display=swap" rel = "stylesheet">
+                <link rel = "preconnect" href = "https://fonts.gstatic.com">
+                <link rel = "preconnect" href = "https://fonts.gstatic.com">
+                <link href = "https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel = "stylesheet">
+                <link rel = "icon" href = "images/logo.jpg">
 
-            <title>Rob's Health and Fitness</title>
+            <title>Robby's Health and Fitness</title>
 
 </head>
 
@@ -24,52 +22,57 @@
 
 <!--Logo and Header Box-->
 
-    <div class = "box1">
-        <img src = "/images/logo.jpg" class="logo">
+<div class = "box1">
+    <a href = "index.html">
+        <img src = "images/drawing.svg" class = "logo">
+    </a>
         <h1 class = "tagline">Robs Health and Fitness Website</h1>
-    </div>
+</div>
     <br>
 
 <!--Top menu-->
 
-<div class = "box2">
+<div class = "navwrapper">
 
-        <div class = "box2">
-
-        <div class = "topMenu">
-            <ul>
-                <li><a href = "index.html">Home</a></li>
-
-                <li><a href = "recipeshome.html">Recipes</a></li>
-
-                <li><a href = "workouts.html">Workouts</a></li>
-
-                <li><a href = "#">Workout Planner</a></li>
-
-                <li><a href = "#">Contact Me</a></li>
-            </ul>
-        </div>
-
-    <div class = "searchbar">
-        <input type = "text" placeholder = "Looking for something specific?">
-            <img src = "images/searchbaricon.jpg" class = "searchbaricon">
+    <div class = "navbar">
+        <ul class = "navlist">
+            <li><a href = "index.html">Home</a></li>
+            <li>
+                <ul class = "submenu" onload="hideSubMenu(this)" onmouseleave="hideSubMenu(this)">
+                    <li onmouseover = "showSubMenu(this)"><a href = "recipes.html">Recipes</a></li>
+                    <li class = "subMenuItem"><a href = "#">Beef Recipes</a></li>
+                    <li class = "subMenuItem"><a href = "#">Chicken Recipes</a></li>
+                    <li class = "subMenuItem"><a href = "#">Fish Recipes</a></li>
+                </ul>
+            </li>
+            <li><a href = "workouts.html">Workouts</a></li>
+            <li><a href = "#">Workout Planner</a></li>
+            <li><a href = "#">Contact Me</a></li>
+        </ul>
     </div>
 
-        <div class = "login">
-            <ul>
-                <li><img src = "images/loginicon.jpg" class = "loginicon">
-                    <a href="#">Login</a></li>
+    <div class = "login">
+        <ul>
+            <li><a href="#">Login</a></li>
 
-                <li><img src = "images/signup.png" class = "signupicon">
-                    <a href="#">Register</a></li>
-            </ul>
-        </div>
+            <li><a href = "register.html">Register</a></li>
+        </ul>
+    </div>
+
+    <div class = "searchbar">
+        <img src = "images/searchbaricon.jpg" class = "searchbaricon">
+            <input type = "text" placeholder = "Looking for something specific?">
+    </div>
+
 </div>
- <br>
-    <div class= "box3">
+
+<div class = "wrapper">
+
+    <div id = "subwrapbox">
+
         <h1 class = "formheader">Register!</h1>
 
-        <p1 class = "registerinfo">Register your account today for the full free benefits of this website. Once you have a registered account you will entered into a weekly giveaway by email, you could win prizes such as:</p1>
+        <p1 class = "registerinfo">Register your account today for the full free benefits of this website. Once you have a registered account you will be entered into a weekly giveaway by email, you could win prizes such as:</p1>
         <br>
         <list class = "registerbenefits">
         <ul><br>
@@ -149,28 +152,52 @@
         </form>
     </div>
 
-        <!--Footer-->
+        </div>
+    </div>
 
-    <div class = "footer">
-        <!-- Social media buttons links -->
+    <!--Footer-->
+
+<div class = "footer">
+
+
+
+<!-- Social media buttons links -->
 
         <a href = "https://www.facebook.com">
-            <img class = "social" src="images/facebookshare.png" id="facebook-logo" target="_blank">
+            <img class = "social" src = "images/facebook-logo.png" id = "facebook-logo" target = "_blank">
         </a>
 
         <a href = "https://www.twitter.co.uk">
-            <img class = "social" src="images/twittershare.png" id="twitter-logo" target="_blank">
+            <img class = "social" src = "images/twitter-logo.png" id = "twitter-logo" target = "_blank">
         </a>
 
         <a href = "https://www.instagram.com">
-            <img class = "social" src="images/instagram-logo.png" id="instagram-logo" target="_blank">
+            <img class = "social" src = "images/instagram-logo.png" id = "instagram-logo" target = "_blank">
         </a>
 
         <a href = "https://www.snapchat.com">
-            <img class = "social" src="images/snapchat-logo.png" id="snapchat-logo" target="_blank">
+            <img class = "social" src = "images/snapchat-logo.png" id = "snapchat-logo" target = "_blank">
         </a>
     </div>
+
+
 </body>
 
 </html>
 
+<script>
+
+    function showSubMenu(menuItem){
+        var items = menuItem.parentNode.getElementsByClassName("subMenuItem");
+        for (i = 0; i < items.length; i++) {
+            items[i].style.display = "inline";
+        }
+    }
+
+    function hideSubMenu(menu){
+        var items = menu.getElementsByClassName("subMenuItem");
+        for (i = 0; i < items.length; i++) {
+            items[i].style.display = "none";
+        }
+    }
+</script>

@@ -179,7 +179,7 @@ body{
 
 }
 
-#kormaheader {
+#salmonheader {
     font-family: 'Bebas Neue', cursive;
     color: black;
     font-size: 60px;
@@ -196,7 +196,7 @@ body{
 
 }
 
-#kormavid {
+#salmonvid {
     margin-left: 50px;
     float: left;
     height: 300px;

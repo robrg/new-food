@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+            <meta charset = "utf-8">
+            <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+            <meta name = "description" content = "Robby's Favourite Meals">
+                <link rel = "stylesheet" type = "text/css" href = "allcss/enchis.css" media = "screen" />
+                <link rel = "preconnect" href = "https://fonts.gstatic.com">
+                <link href = "https://fonts.googleapis.com/css2?family=Spectral+SC:wght@200&display=swap" rel = "stylesheet">
+                <link rel = "preconnect" href = "https://fonts.gstatic.com">
+                <link rel = "preconnect" href = "https://fonts.gstatic.com">
+                <link href = "https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel = "stylesheet">
+                <link rel = "icon" href = "images/logo.jpg">
+
+            <title>Robby's Health and Fitness</title>
+
+</head>
+
+<body>
+
+<!--Logo and Header Box-->
+
+<div class = "box1">
+    <a href = "index.html">
+        <img src = "images/drawing.svg" class = "logo">
+    </a>
+
+    <h1 class = "tagline">Robs Health and Fitness Website</h1>
+</div>
+    <br>
+
+<!--Top menu-->
+
+<div class = "navwrapper">
+
+    <div class = "navbar">
+        <ul class = "navlist">
+            <li><a href = "index.html">Home</a></li>
+            <li>
+                <ul class = "submenu" onload="hideSubMenu(this)" onmouseleave="hideSubMenu(this)">
+                    <li onmouseover = "showSubMenu(this)"><a href = "recipes.html">Recipes</a></li>
+                    <li class = "subMenuItem"><a href = "#">Beef Recipes</a></li>
+                    <li class = "subMenuItem"><a href = "#">Chicken Recipes</a></li>
+                    <li class = "subMenuItem"><a href = "#">Fish Recipes</a></li>
+                </ul>
+            </li>
+            <li><a href = "workouts.html">Workouts</a></li>
+            <li><a href = "#">Workout Planner</a></li>
+            <li><a href = "#">Contact Me</a></li>
+        </ul>
+    </div>
+
+    <div class = "login">
+        <ul>
+            <li><a href="#">Login</a></li>
+
+            <li><a href = "register.html">Register</a></li>
+        </ul>
+    </div>
+
+    <div class = "searchbar">
+        <img src = "images/searchbaricon.jpg" class = "searchbaricon">
+            <input type = "text" placeholder = "Looking for something specific?">
+    </div>
+
+</div>
+
+<div class = "wrapper">
+
+    <div id = "subwrapbox">
+
+        <h1 id = "enchiheader">Chicken Enchiladas with Egg Fried Rice</h1>
+
+        <div id = "vidcontainer">
+            <iframe src = "https://www.youtube.com/embed/wNQx34RQZtI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id = "enchivid">
+            </iframe>
+        </div>
+
+        <div class = "macrocontain">
+            <h2 class = "macrohead">Macro's</h2>
+                <ul class = "macrosinfo">
+                    <li>Kcal: 558</li>
+                    <li>Protein: 40g</li>
+                    <li>Fat: 21g</li>
+                    <li>Saturated Fats: 4g</li>
+                    <li>Carbs: 53g</li>
+                    <li>Sugar: 18g</li>
+                    <li>Fibre: 6g</li>
+                    <li>Salt 2.2g</li>
+                </ul>
+        </div>
+
+        <div class = "infocontainer">
+            <h4 class = "cookinginfohead">Cooking Info:</h4>
+                <ul class = "cookinginfo">
+                    <li>Preperation Time: 1 Hour</li>
+                    <li>Cooking Time: 40 Minutes</li>
+                    <li>Serves: 3 </li>
+                    <li>Fairly Easy to Cook</li>
+                </ul>
+        </div>
+
+        <div class = "ingredientscontain">
+            <h3 class = "ingredientshead">Ingredients</h3>
+                <ul class = "ingredientsinfo">
+                    <li>600g's of Chicken Breast</li>
+                    <li>Tortillas</li>
+                    <li>300g's of Basmati Rice</li>
+                    <li>Garlic cloves</li>
+                    <li>Red/Green Peppers</li>
+                    <li>2/3 Eggs</li>
+                    <li>200g's of Mushrooms</li>
+                    <li>Soured Cream</li>
+                    <li>Onions</li>
+                    <li>200g's of Cheese</li>
+                    <li>1 tbsp of Cumin</li>
+                    <li>1 tbsp of Smoked Paprika</li>
+                    <li>1 tsp of Chilli powder</li>
+                    <li>200g's of Chopped tomatoes</li>
+                    <li>Salsa</li>
+                </ul>
+        </div>
+
+        <div class = "descriptioncontain">
+            <p class = "descrip">Here's another one of my favorites, a classic mexican dish packed with so much flavour, still tastes great when left in the fridge for a few days, the more Cheese you add to this dish the better its going to taste!</p>
+        </div>
+
+        <div class = "shareratecontain">
+            <p class = "reciby">Recipe by Me!</p>
+
+            <p id = "terishareto">Share this Recipe too:</p>
+
+
+        <div class = "terisharebtns">
+
+            <a href = "https://www.facebook.com">
+                <img src = "images/facebookshare.png" class = "terisharebtns">
+            </a>
+
+            <a href = "https://www.twitter.co.uk">
+                <img src = "images/twittershare.png" class = "terisharebtns">
+            </a>
+
+            <a href = "#">
+                <img src = "images/pinterestshare.jpg" class = "terisharebtns">
+            </a>
+
+            <a href = "https://www.instagram.com">
+                <img src = "images/instashare.png" class = "terisharebtns">
+            </a>
+        </div>
+
+            <p class = "raterecipehead">Rate this Recipe:</p>
+                <img src = "images/reviewstars.png" class = "reviewstars">
+        </div>
+
+        <div id = "stepscontainer">
+            <h4 id = "step1head">Step 1:</h4>
+                <p id = "step1desc">As i always say if you have time marinate the chicken in the fridge the night before or for 3 hours prior to cooking to bring out those flavours even more. Start by chopping the Chicken into small even chunks, add 1 tsp of all of the spices listed and season with a touch of Olive Oil, Salt and Pepper, Give it a good mix and put it to one side.</p>
+            <h5 id = "step2head">Step 2:</h5>
+                <p id = "step2desc">Before we start cooking the chicken pop your rice on first and leave it to one side once its done. Then chop both of your onions and your mushrooms, fry them with Olive Oil, Salt, Pepper, Garlic. I also like to add some sugar to the onions to caramalise them. Next grate a load of Cheese ready for when are about to pop everything in the oven.</p>
+            <h6 id = "step3head">Step 3:</h6>
+                <p id = "step3desc">Next start cooking off all the Chicken, but dont overcook this as we will be cooking it in the oven. If you have a griddled pan use this to cook the Chicken and push the Chicken down in the pan to try get that charring on the outside. Then when the Chickens all cooked place some tortillas at the bottom of a ovenproof dish, then pour ontop the chicken, Onions, Peppers, Soured cream, mushrooms and then sprinkle some cheese on top and cover it all with more tortillas and then add the rest of the cheese on top of them. Place in the oven for around 30 minutes or until you see the Cheese starting to turn golden.</p>
+            <h6 id = "step4head">Step 4:</h6>
+                <p id = "step4desc">Whilst thats cooking in the oven you can start on the Rice, boil the rice until cooked and then add 2 eggs to a wok, season with Salt and Pepper and cook them until they are nearly cooked, then add the cooked rice and some soy sauce to the Wok, once the eggs are fully cooked you are done, serve with Salsa.</p>
+        </div>
+
+
+
+
+
+
+
+
+
+    </div>
+    </div>
+
+    <!--Footer-->
+
+<div class = "footer">
+
+
+
+<!-- Social media buttons links -->
+
+        <a href = "https://www.facebook.com">
+            <img class = "social" src = "images/facebook-logo.png" id = "facebook-logo" target = "_blank">
+        </a>
+
+        <a href = "https://www.twitter.co.uk">
+            <img class = "social" src = "images/twitter-logo.png" id = "twitter-logo" target = "_blank">
+        </a>
+
+        <a href = "https://www.instagram.com">
+            <img class = "social" src = "images/instagram-logo.png" id = "instagram-logo" target = "_blank">
+        </a>
+
+        <a href = "https://www.snapchat.com">
+            <img class = "social" src = "images/snapchat-logo.png" id = "snapchat-logo" target = "_blank">
+        </a>
+    </div>
+
+
+</body>
+
+</html>
+
+<script>
+
+    function showSubMenu(menuItem){
+        var items = menuItem.parentNode.getElementsByClassName("subMenuItem");
+        for (i = 0; i < items.length; i++) {
+            items[i].style.display = "inline";
+        }
+    }
+
+    function hideSubMenu(menu){
+        var items = menu.getElementsByClassName("subMenuItem");
+        for (i = 0; i < items.length; i++) {
+            items[i].style.display = "none";
+        }
+    }
+</script>

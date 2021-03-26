@@ -229,7 +229,6 @@ body{
     margin-right: 165px;
     margin-top: 50px;
     margin-bottom: 20px;
-    text-decoration-color: #E96C00;
 
 }
 
@@ -239,7 +238,7 @@ body{
     display: inline;
     font-size: 15px;
     margin-top: 0px;
-    margin-bottom: 0px
+    margin-bottom: 0px;
 
 }
 
@@ -327,7 +326,6 @@ body{
     margin-right: 100px;
     margin-bottom: 50px;
 }
-
 
 #step1 {
     float: left;

@@ -6,7 +6,7 @@
             <meta charset = "utf-8">
             <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
             <meta name = "description" content = "Robby's Favourite Meals">
-                <link rel = "stylesheet" type = "text/css" href = "allcss/index.css" media = "screen" />
+                <link rel = "stylesheet" type = "text/css" href = "allcss/planner.css" media = "screen" />
                 <link rel = "preconnect" href = "https://fonts.gstatic.com">
                 <link href = "https://fonts.googleapis.com/css2?family=Spectral+SC:wght@200&display=swap" rel = "stylesheet">
                 <link rel = "preconnect" href = "https://fonts.gstatic.com">
@@ -14,12 +14,11 @@
                 <link href = "https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel = "stylesheet">
                 <link rel = "icon" href = "images/logo.jpg">
 
-            <title>Robby's Health and Fitness</title>
+            <title>Robs Health and Fitness</title>
 
 </head>
 
 <body>
-
 <!--Logo and Header Box-->
 
 <div class = "box1">
@@ -68,13 +67,83 @@
 
 <div class = "wrapper">
 
+    <h1 id = "exerciseplanhead">My Custom Workout Planner</h1>
 
+        <p id = "workoutplannerinfo">Here i have created a custom workout tracker, if you have already seen my workout page these are all exercise that i have put on there, you can select each exercise and help track what set you are on, or you could save these to help see if you are making progress with your reps. I always lose track of what set i am on so i even i use this in my workouts, i have also added a timer for your rest in between sets.</p>
+
+    <div id = "workoutbox">
+        <h2 id = "exerciseplanhead">My Custom Workout Planner</h2>
+        <select id = "exercisetype">
+            <option>Choose an Exercise</option>
+            <option>Concentration Bicep Curls</option>
+            <option>Incline Dumbell Curls</option>
+            <option>Hammer Curls</option>
+            <option></option>
+
+            <option>Lying Tricep Extensions</option>
+            <option>Standing Tricep Extensions</option>
+            <option>Tricep Kickbacks</option>
+            <option></option>
+
+            <option>Seated Dumbell Shoulder Press</option>
+            <option>Dumbell Lateral Raises</option>
+            <option>Dumbell Reverse Flys</option>
+            <option></option>
+
+            <option>Dumbell Bench Press</option>
+            <option>Incline Dumbell Bench Press</option>
+            <option>Dumbell Chest Flys</option>
+            <option></option>
+
+            <option>Barbell Back Squats</option>
+            <option>Goblet Squats</option>
+            <option>Incline Treadmill Sprints</option>
+            <option></option>
+
+            <option>Seated Bent-Over Rows</option>
+            <option>Dumbell Bent-Over Rows</option>
+            <option>Deadlifts</option>
+        </select>
+
+        <select id = "exercisesets">
+            <option>Set Counter</option>
+            <option>Set 1</option>
+            <option>Set 2</option>
+            <option>Set 3</option>
+            <option>Set 4</option>
+            <option>Set 5</option>
+            <option>Set 6</option>
+        </select>
+
+        <select id = "exercisereps">
+            <option>Rep Counter</option>
+            <option>1 Rep</option>
+            <option>2 Reps</option>
+            <option>3 Reps</option>
+            <option>4 Reps</option>
+            <option>5 Reps</option>
+            <option>6 Reps</option>
+            <option>7 Reps</option>
+            <option>8 Reps</option>
+            <option>9 Reps</option>
+            <option>10 Reps</option>
+            <option>11 Reps</option>
+            <option>12 Reps</option>
+            <option>13 Reps</option>
+            <option>14 Reps</option>
+            <option>15 Reps</option>
+        </select>
+
+        <input type = "text" placeholder = "Weight used">
+            <select>
+                <option>Kg's</option>
+                <option>Lb's</option>
+            </select>
+
+        <input type = "button" alt = "Submit">
+    </div>
 
     <div id = "subwrapbox">
-
-    <div id = "maincontain">
-        <img src = "images/mainpageimage.jpg" id = "mainpageimg">
-    </div>
 
 
 
@@ -126,5 +195,11 @@
         for (i = 0; i < items.length; i++) {
             items[i].style.display = "none";
         }
+    }
+</script>
+
+<script>
+    function workoutplanner(){
+    var workoutlist = document.getElementById("exercisetype");
     }
 </script>
